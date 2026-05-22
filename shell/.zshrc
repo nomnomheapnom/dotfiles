@@ -67,6 +67,9 @@ alias myip='curl -s ifconfig.me'
 alias wt='curl -s wttr.in/?format=3'
 
 # ── Pacman / System Updates ──────────────────────────────────
+alias pacman='sudo pacman'
+alias update='sudo pacman -Syu'
+alias upgrade='sudo pacman -Syu'
 alias pac='sudo pacman -S'
 alias pacu='sudo pacman -Syu'
 alias pacr='sudo pacman -Rns'
