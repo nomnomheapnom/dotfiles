@@ -1,0 +1,55 @@
+2026-03-24 03:05:21.092 [info] [main] Log level: Info
+2026-03-24 03:05:21.092 [info] [main] Validating found git in: "git"
+2026-03-24 03:05:21.092 [info] [main] Using git "2.53.0" from "git"
+2026-03-24 03:05:21.092 [info] [Model][doInitialScan] Initial repository scan started
+2026-03-24 03:05:21.092 [info] > git rev-parse --show-toplevel [373ms]
+2026-03-24 03:05:21.092 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [29ms]
+2026-03-24 03:05:21.092 [info] [Model][openRepository] Opened repository (path): /home/user
+2026-03-24 03:05:21.092 [info] [Model][openRepository] Opened repository (real path): /home/user
+2026-03-24 03:05:21.092 [info] [Model][openRepository] Opened repository (kind): repository
+2026-03-24 03:05:21.094 [info] > git config --get commit.template [5ms]
+2026-03-24 03:05:21.095 [info] > git rev-parse --show-toplevel [4ms]
+2026-03-24 03:05:21.097 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-03-24 03:05:21.102 [info] [Git][getRemotes] No remotes found in the git config file
+2026-03-24 03:05:21.103 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-03-24 03:05:21.103 [warning] [Git][getBranch] No such branch: main
+2026-03-24 03:05:21.114 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-03-24 03:05:21.393 [info] > git show --textconv :.config/hypr/bindings.conf [4ms]
+2026-03-24 03:05:21.397 [info] > git ls-files --stage -- .config/hypr/bindings.conf [4ms]
+2026-03-24 03:05:21.401 [info] > git hash-object -t tree /dev/null [5ms]
+2026-03-24 03:05:21.401 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/user/.config/hypr/bindings.conf.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Fhypr%2Fbindings.conf%22%2C%22ref%22%3A%22%22%7D
+2026-03-24 03:05:21.401 [info] > git hash-object -t tree /dev/null [1ms]
+2026-03-24 03:05:21.402 [warning] [GitFileSystemProvider][stat] File not found - git:/home/user/.config/hypr/bindings.conf.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Fhypr%2Fbindings.conf%22%2C%22ref%22%3A%22%22%7D
+2026-03-24 03:05:21.752 [info] > git check-ignore -v -z --stdin [9ms]
+2026-03-24 03:05:49.891 [info] > git status -z -uall [28784ms] (cancelled)
+2026-03-24 03:05:49.892 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [993ms]
+2026-03-24 03:05:49.892 [warning] [Git][getBranch] No such branch: main
+2026-03-24 03:05:49.892 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2026-03-24 03:05:49.897 [info] > git config --get commit.template [6ms]
+2026-03-24 03:05:49.906 [info] [Git][getRemotes] No remotes found in the git config file
+2026-03-24 03:05:49.911 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2026-03-24 03:05:49.911 [warning] [Git][getBranch] No such branch: main
+2026-03-24 03:05:49.926 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-03-24 03:05:50.598 [info] > git check-ignore -v -z --stdin [2ms]
+2026-03-24 03:05:50.599 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [32ms]
+2026-03-24 03:05:50.599 [info] fatal: bad revision 'refs/heads/main'
+2026-03-24 03:05:50.599 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2026-03-24 03:05:50.975 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-24 03:05:52.289 [info] > git status -z -uall [2374ms] (cancelled)
+2026-03-24 03:05:56.842 [info] > git check-ignore -v -z --stdin [2ms]
+2026-03-24 03:10:29.498 [info] > git check-ignore -v -z --stdin [5ms]
+2026-03-24 03:10:42.296 [info] > git check-ignore -v -z --stdin [28ms]
+2026-03-24 03:10:42.359 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-24 03:10:42.489 [info] > git show --textconv :.config/hypr/hyprland.conf [6ms]
+2026-03-24 03:10:42.490 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/user/.config/hypr/hyprland.conf.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Fhypr%2Fhyprland.conf%22%2C%22ref%22%3A%22%22%7D
+2026-03-24 03:10:42.491 [info] > git ls-files --stage -- .config/hypr/hyprland.conf [1ms]
+2026-03-24 03:10:42.491 [warning] [GitFileSystemProvider][stat] File not found - git:/home/user/.config/hypr/hyprland.conf.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Fhypr%2Fhyprland.conf%22%2C%22ref%22%3A%22%22%7D
+2026-03-24 03:10:44.248 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-24 03:11:03.405 [info] > git check-ignore -v -z --stdin [3ms]
+2026-03-24 03:11:07.903 [info] > git check-ignore -v -z --stdin [2ms]
+2026-03-24 03:11:38.972 [info] > git check-ignore -v -z --stdin [4ms]

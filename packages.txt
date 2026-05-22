@@ -1,0 +1,52 @@
+# Core Desktop
+hyprland
+waybar
+wofi
+mako
+hypridle
+hyprlock
+xdg-desktop-portal-hyprland
+polkit-gnome
+qt5-wayland
+qt6-wayland
+
+# TUIs & CLI Tools
+impala
+bluetui
+lazydocker-bin
+btop
+glances
+micro
+neovim
+eza
+bat
+zoxide
+fd
+ripgrep
+fzf
+duf
+jq
+starship
+zsh
+fish
+
+# Rice Specific Utilities
+walker-bin
+elephant
+gslapper
+satty
+hyprsunset
+swayosd
+cliphist
+wl-clipboard
+hyprpicker
+playerctl
+nwg-displays
+brightnessctl
+
+# Media & Fonts
+firefox
+dolphin
+spicetify-bin
+ttf-jetbrains-mono-nerd
+noto-fonts-emoji

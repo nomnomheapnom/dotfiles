@@ -1,0 +1,30 @@
+background-color=#000000
+text-color=#D9AFA7
+border-color=#7B534E
+progress-color=over #FF6B4A
+
+border-size=1
+border-radius=0
+padding=12
+default-timeout=5000
+max-visible=5
+layer=overlay
+anchor=top-right
+font=JetBrainsMonoNL Nerd Font 11
+
+[urgency=high]
+border-color=#FF6B4A
+default-timeout=0
+
+# DND: suppress Telegram and browser notifications in do-not-disturb mode
+[app-name="Telegram"]
+mode=do-not-disturb
+visible=false
+
+[app-name="org.telegram.desktop"]
+mode=do-not-disturb
+visible=false
+
+[app-name="firefox"]
+mode=do-not-disturb
+visible=false

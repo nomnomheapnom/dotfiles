@@ -1,0 +1,128 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "kitty",
+    "source": "/home/user/.config/fastfetch/image.png",
+    "width": 35,
+    "height": 16,
+    "padding": {
+      "top": 2,
+      "left": 2,
+      "right": 4
+    }
+  },
+  "display": {
+    "separator": " ",
+    "color": {
+      "separator": "blue"
+    }
+  },
+  "modules": [
+    "title",
+    "separator",
+    // ----- SYSTEM -----
+    {
+      "type": "custom",
+      "format": "┌─   System Information ──────────────────────────────────┐"
+    },
+    {
+      "type": "os",
+      "key": "│  OS      ",
+      "keyColor": "blue"
+    },
+    {
+      "type": "kernel",
+      "key": "│  Kernel  ",
+      "keyColor": "blue",
+      "format": "{1} {2}"
+    },
+    {
+      "type": "uptime",
+      "key": "│ 󰅐 Uptime  ",
+      "keyColor": "blue"
+    },
+    {
+      "type": "packages",
+      "key": "│ 󰏖 Packages",
+      "keyColor": "blue"
+    },
+    // ----- DESKTOP -----
+    {
+      "type": "custom",
+      "format": "├─   Desktop Environment ─────────────────────────────────┤"
+    },
+    {
+      "type": "wm",
+      "key": "│  WM      ",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "terminal",
+      "key": "│  Terminal",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "shell",
+      "key": "│  Shell   ",
+      "keyColor": "cyan"
+    },
+    // ----- HARDWARE -----
+    {
+      "type": "custom",
+      "format": "├─   Hardware & Resources ────────────────────────────────┤"
+    },
+    {
+      "type": "cpu",
+      "key": "│  CPU     ",
+      "keyColor": "magenta",
+      "format": "{1}" // Strips out extra cache info, keeps just the name
+    },
+    {
+      "type": "gpu",
+      "key": "│ 󰢮 GPU     ",
+      "keyColor": "magenta",
+      "format": "{2}" // Shows just the GPU name
+    },
+    {
+      "type": "memory",
+      "key": "│  Memory  ",
+      "keyColor": "magenta",
+      "format": "{1} / {2} ({3})" // Formats explicitly to: Used / Total (Percentage)
+    },
+    {
+      "type": "disk",
+      "key": "│ 󰋊 Disk (/)  ",
+      "folders": "/", // Only shows your root btrfs drive, hiding the large ext4 drive for a cleaner look. Remove this line to show both.
+      "keyColor": "magenta"
+    },
+    {
+      "type": "battery",
+      "key": "│  Battery ",
+      "keyColor": "magenta"
+    },
+    // ----- EXTRAS -----
+    {
+      "type": "custom",
+      "format": "├─ 󰎆  Extras ──────────────────────────────────────────────┤"
+    },
+    {
+      "type": "media",
+      "key": "│ 󰝚 Media   ",
+      "keyColor": "green"
+    },
+    {
+      "type": "localip",
+      "key": "│ 󰩠 IP      ",
+      "keyColor": "green"
+    },
+    {
+      "type": "custom",
+      "format": "───────────────────────────────────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle" // Changes the standard color blocks to clean circles
+    }
+  ]
+}

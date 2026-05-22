@@ -1,0 +1,108 @@
+$mainMod = SUPER
+
+bindd = $mainMod, RETURN, Terminal, exec, ghostty
+
+bindd = $mainMod SHIFT, RETURN, Browser, exec, firefox
+bindd = $mainMod SHIFT, B, Browser, exec, firefox
+bindd = $mainMod SHIFT ALT, B, Browser (private), exec, firefox --private-window
+bindd = $mainMod SHIFT, F, File manager, exec, nautilus --new-window
+bindd = $mainMod SHIFT, N, Editor, exec, nvim
+
+bindd = $mainMod, SPACE, Launcher, exec, walker
+bindd = $mainMod, V, Clipboard picker, exec, cliphist list | walker --dmenu --placeholder "Clipboard" | cliphist decode | wl-copy
+
+bindd = $mainMod CTRL, L, Lock screen, exec, hyprlock
+bindd = $mainMod CTRL, Q, Logout, exec, loginctl lock-session
+bindd = $mainMod SHIFT, R, Reload config, exec, hyprctl reload
+bindd = $mainMod, Q, Kill window, killactive
+bindd = $mainMod CTRL ALT, Q, Force kill window, exec, hyprctl kill
+
+bindd = , PRINT, Screenshot (region), exec, grim -g "$(slurp)" - | wl-copy
+bindd = SHIFT, PRINT, Screenshot (fullscreen save), exec, grim ~/Pictures/screenshot-$(date +%Y%m%d-%H%M%S).png
+bindd = $mainMod, PRINT, Screenshot (annotate), exec, grim -g "$(slurp)" - | swappy -f -
+bindd = $mainMod, INSERT, Color picker, exec, hyprpicker -a
+
+bindd = , XF86AudioMute, Mute speaker, exec, swayosd-client --output-volume mute-toggle
+bindd = , XF86AudioLowerVolume, Volume down, exec, swayosd-client --output-volume lower
+bindd = , XF86AudioRaiseVolume, Volume up, exec, swayosd-client --output-volume raise
+bindd = , XF86AudioMicMute, Mute mic, exec, swayosd-client --input-volume mute-toggle
+
+bindd = , XF86MonBrightnessDown, Brightness down, exec, swayosd-client --brightness lower
+bindd = , XF86MonBrightnessUp, Brightness up, exec, swayosd-client --brightness raise
+
+bindd = , XF86Display, Display settings, exec, nwg-displays
+bindd = , XF86WLAN, Toggle Wi-Fi, exec, rfkill toggle wlan
+bindd = , XF86RFKill, Toggle Airplane Mode, exec, rfkill toggle all
+bindd = , XF86Bluetooth, Toggle Bluetooth, exec, rfkill toggle bluetooth
+bindd = , XF86Favorites, Favorite App, exec, firefox
+
+bindd = , XF86AudioPlay, Play/pause, exec, playerctl play-pause
+bindd = , XF86AudioPrev, Previous track, exec, playerctl previous
+bindd = , XF86AudioNext, Next track, exec, playerctl next
+
+bindd = $mainMod SHIFT, COMMA, Dismiss all notifications, exec, makoctl dismiss --all
+bindd = $mainMod ALT, COMMA, Invoke last notification, exec, makoctl invoke
+bindd = $mainMod SHIFT ALT, COMMA, Restore last notification, exec, makoctl restore
+
+bindd = $mainMod, H, Focus left, movefocus, l
+bindd = $mainMod, L, Focus right, movefocus, r
+bindd = $mainMod, K, Focus up, movefocus, u
+bindd = $mainMod, J, Focus down, movefocus, d
+
+bindd = $mainMod SHIFT, H, Move window left, movewindow, l
+bindd = $mainMod SHIFT, L, Move window right, movewindow, r
+bindd = $mainMod SHIFT, K, Move window up, movewindow, u
+bindd = $mainMod SHIFT, J, Move window down, movewindow, d
+
+bindd = $mainMod CTRL, H, Resize left, resizeactive, -50 0
+bindd = $mainMod CTRL, L, Resize right, resizeactive, 50 0
+bindd = $mainMod CTRL, K, Resize up, resizeactive, 0 -50
+bindd = $mainMod CTRL, J, Resize down, resizeactive, 0 50
+
+bindd = $mainMod, left, Focus left, movefocus, l
+bindd = $mainMod, right, Focus right, movefocus, r
+bindd = $mainMod, up, Focus up, movefocus, u
+bindd = $mainMod, down, Focus down, movefocus, d
+
+bindd = $mainMod, F, Fullscreen, fullscreen, 0
+bindd = $mainMod SHIFT, F11, Fullscreen (no bar), fullscreen, 1
+bindd = $mainMod SHIFT, SPACE, Toggle float, togglefloating
+bindd = $mainMod, P, Toggle pseudotile, pseudo
+bindd = $mainMod, S, Toggle split direction, togglesplit
+bindd = $mainMod SHIFT, P, Pin window, pin
+
+bindd = $mainMod, 1, Go to workspace 1, workspace, 1
+bindd = $mainMod, 2, Go to workspace 2, workspace, 2
+bindd = $mainMod, 3, Go to workspace 3, workspace, 3
+bindd = $mainMod, 4, Go to workspace 4, workspace, 4
+bindd = $mainMod, 5, Go to workspace 5, workspace, 5
+bindd = $mainMod, 6, Go to workspace 6, workspace, 6
+bindd = $mainMod, 7, Go to workspace 7, workspace, 7
+bindd = $mainMod, 8, Go to workspace 8, workspace, 8
+bindd = $mainMod, 9, Go to workspace 9, workspace, 9
+bindd = $mainMod, 0, Go to workspace 10, workspace, 10
+
+bindd = $mainMod SHIFT, 1, Move to workspace 1, movetoworkspace, 1
+bindd = $mainMod SHIFT, 2, Move to workspace 2, movetoworkspace, 2
+bindd = $mainMod SHIFT, 3, Move to workspace 3, movetoworkspace, 3
+bindd = $mainMod SHIFT, 4, Move to workspace 4, movetoworkspace, 4
+bindd = $mainMod SHIFT, 5, Move to workspace 5, movetoworkspace, 5
+bindd = $mainMod SHIFT, 6, Move to workspace 6, movetoworkspace, 6
+bindd = $mainMod SHIFT, 7, Move to workspace 7, movetoworkspace, 7
+bindd = $mainMod SHIFT, 8, Move to workspace 8, movetoworkspace, 8
+bindd = $mainMod SHIFT, 9, Move to workspace 9, movetoworkspace, 9
+bindd = $mainMod SHIFT, 0, Move to workspace 10, movetoworkspace, 10
+
+bindd = $mainMod, TAB, Next workspace, workspace, e+1
+bindd = $mainMod SHIFT, TAB, Prev workspace, workspace, e-1
+
+bindd = $mainMod, MINUS, Toggle scratchpad, togglespecialworkspace, magic
+bindd = $mainMod SHIFT, MINUS, Move to scratchpad, movetoworkspace, special:magic
+
+bindm = $mainMod, mouse:272, movewindow
+bindm = $mainMod, mouse:273, resizewindow
+bind = $mainMod, mouse_down, workspace, e+1
+bind = $mainMod, mouse_up, workspace, e-1
+
+bindd = $mainMod CTRL, Z, Zoom in, exec, hyprctl keyword cursor:zoom_factor $(hyprctl getoption cursor:zoom_factor -j | jq '.float + 1')
+bindd = $mainMod CTRL ALT, Z, Reset zoom, exec, hyprctl keyword cursor:zoom_factor 1

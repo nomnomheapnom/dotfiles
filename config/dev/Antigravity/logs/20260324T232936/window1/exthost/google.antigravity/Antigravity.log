@@ -1,0 +1,14 @@
+2026-03-24 23:30:15.698 [info] I0324 23:30:15.697484 28614 server.go:1150] Starting language server process with pid 28614
+2026-03-24 23:30:15.701 [info] I0324 23:30:15.701455 28614 server.go:269] Setting GOMAXPROCS to 4
+2026-03-24 23:30:15.705 [info] I0324 23:30:15.704952 28614 server.go:422] Language server will attempt to listen on host 127.0.0.1
+2026-03-24 23:30:15.735 [info] I0324 23:30:15.734700 28614 server.go:437] Language server listening on random port at 41383 for HTTPS
+2026-03-24 23:30:15.735 [info] I0324 23:30:15.734823 28614 server.go:444] Language server listening on random port at 45809 for HTTP
+2026-03-24 23:30:16.115 [info] I0324 23:30:16.115003 28614 server.go:414] Created extension server client at port 39087
+2026-03-24 23:30:16.241 [info] I0324 23:30:16.241163 28614 server.go:553] Using ApiServerClientV2
+2026-03-24 23:30:16.249 [info] I0324 23:30:16.248574 28614 cascade_manager.go:834] Reactive state is disabled
+2026-03-24 23:30:16.359 [info] (Antigravity) 2026-03-24 23:30:16.350 [INFO]: Language server started
+2026-03-24 23:30:16.440 [info] I0324 23:30:16.422423 28614 server.go:1530] initialized server successfully in 720.918026ms
+2026-03-24 23:30:16.490 [info] (Antigravity) 2026-03-24 23:30:16.490 [INFO]: LS lspClient started successfully
+2026-03-24 23:30:18.693 [info] I0324 23:30:18.693156 28614 system_mcps.go:80] Chrome DevTools MCP URL discovered at http://127.0.0.1:44539/mcp, stopping watcher
+2026-03-24 23:30:59.319 [info] E0324 23:30:59.318983 28614 interceptor.go:74] /exa.language_server_pb.LanguageServerService/GetUserMemories (unknown): deprecated
+2026-03-24 23:32:34.281 [info] I0324 23:32:34.280870 28614 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9b81dc2b9c1b17f0

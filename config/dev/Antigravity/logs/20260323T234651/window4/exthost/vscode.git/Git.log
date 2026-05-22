@@ -1,0 +1,126 @@
+2026-03-23 23:48:45.569 [info] [main] Log level: Info
+2026-03-23 23:48:45.569 [info] [main] Validating found git in: "git"
+2026-03-23 23:48:45.569 [info] [main] Using git "2.53.0" from "git"
+2026-03-23 23:48:45.569 [info] [Model][doInitialScan] Initial repository scan started
+2026-03-23 23:48:45.569 [info] > git rev-parse --show-toplevel [8ms]
+2026-03-23 23:48:45.569 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [36ms]
+2026-03-23 23:48:45.569 [info] [Model][openRepository] Opened repository (path): /home/user
+2026-03-23 23:48:45.569 [info] [Model][openRepository] Opened repository (real path): /home/user
+2026-03-23 23:48:45.569 [info] [Model][openRepository] Opened repository (kind): repository
+2026-03-23 23:48:45.570 [info] > git config --get commit.template [5ms]
+2026-03-23 23:48:45.571 [info] [Git][getRemotes] No remotes found in the git config file
+2026-03-23 23:48:45.576 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-03-23 23:48:45.576 [warning] [Git][getBranch] No such branch: main
+2026-03-23 23:48:45.586 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-03-23 23:48:45.592 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-23 23:48:45.597 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-23 23:48:45.602 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-23 23:48:45.606 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-23 23:48:45.610 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-23 23:48:45.614 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-23 23:48:45.619 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-23 23:48:45.624 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-23 23:48:45.628 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-23 23:48:45.633 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-23 23:48:45.637 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-23 23:48:45.683 [info] > git rev-parse --show-toplevel [42ms]
+2026-03-23 23:48:45.714 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-23 23:48:45.719 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-23 23:48:45.725 [info] > git rev-parse --show-toplevel [2ms]
+2026-03-23 23:48:45.730 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-23 23:48:45.736 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-23 23:48:45.742 [info] > git rev-parse --show-toplevel [2ms]
+2026-03-23 23:48:45.747 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-23 23:48:45.755 [info] > git rev-parse --show-toplevel [3ms]
+2026-03-23 23:48:45.761 [info] > git rev-parse --show-toplevel [2ms]
+2026-03-23 23:48:45.764 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-03-23 23:48:46.189 [info] > git check-ignore -v -z --stdin [2ms]
+2026-03-23 23:48:49.614 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-23 23:49:12.810 [info] > git status -z -uall [27230ms] (cancelled)
+2026-03-23 23:49:12.811 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2026-03-23 23:49:12.811 [warning] [Git][getBranch] No such branch: main
+2026-03-23 23:49:12.811 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2026-03-23 23:49:12.817 [info] > git config --get commit.template [7ms]
+2026-03-23 23:49:12.841 [info] [Git][getRemotes] No remotes found in the git config file
+2026-03-23 23:49:12.850 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [16ms]
+2026-03-23 23:49:12.850 [info] fatal: bad revision 'refs/heads/main'
+2026-03-23 23:49:12.851 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2026-03-23 23:49:13.843 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [996ms]
+2026-03-23 23:49:13.843 [warning] [Git][getBranch] No such branch: main
+2026-03-23 23:49:13.856 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-03-23 23:49:14.105 [info] > git status -z -uall [257ms] (cancelled)
+2026-03-23 23:49:15.596 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-23 23:49:21.310 [info] > git check-ignore -v -z --stdin [2ms]
+2026-03-23 23:49:40.921 [info] > git check-ignore -v -z --stdin [35ms]
+2026-03-23 23:49:40.938 [info] > git show --textconv :.config/hypr/input.conf [6ms]
+2026-03-23 23:49:40.938 [info] > git ls-files --stage -- .config/hypr/input.conf [2ms]
+2026-03-23 23:49:40.947 [info] > git hash-object -t tree /dev/null [2ms]
+2026-03-23 23:49:40.947 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/user/.config/hypr/input.conf.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Fhypr%2Finput.conf%22%2C%22ref%22%3A%22%22%7D
+2026-03-23 23:49:40.947 [info] > git hash-object -t tree /dev/null [5ms]
+2026-03-23 23:49:40.947 [warning] [GitFileSystemProvider][stat] File not found - git:/home/user/.config/hypr/input.conf.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Fhypr%2Finput.conf%22%2C%22ref%22%3A%22%22%7D
+2026-03-23 23:50:01.246 [info] > git check-ignore -v -z --stdin [2ms]
+2026-03-23 23:50:01.290 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-23 23:50:01.446 [info] > git show --textconv :.config/hypr/hyprlock.conf [4ms]
+2026-03-23 23:50:01.447 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/user/.config/hypr/hyprlock.conf.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Fhypr%2Fhyprlock.conf%22%2C%22ref%22%3A%22%22%7D
+2026-03-23 23:50:01.447 [info] > git ls-files --stage -- .config/hypr/hyprlock.conf [1ms]
+2026-03-23 23:50:01.448 [warning] [GitFileSystemProvider][stat] File not found - git:/home/user/.config/hypr/hyprlock.conf.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Fhypr%2Fhyprlock.conf%22%2C%22ref%22%3A%22%22%7D
+2026-03-23 23:50:31.832 [info] > git check-ignore -v -z --stdin [3ms]
+2026-03-23 23:50:31.914 [info] > git check-ignore -v -z --stdin [2ms]
+2026-03-23 23:50:32.029 [info] > git show --textconv :.config/hypr/input.conf [4ms]
+2026-03-23 23:50:32.030 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/user/.config/hypr/input.conf.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Fhypr%2Finput.conf%22%2C%22ref%22%3A%22%22%7D
+2026-03-23 23:50:32.030 [info] > git ls-files --stage -- .config/hypr/input.conf [1ms]
+2026-03-23 23:50:32.031 [warning] [GitFileSystemProvider][stat] File not found - git:/home/user/.config/hypr/input.conf.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Fhypr%2Finput.conf%22%2C%22ref%22%3A%22%22%7D
+2026-03-23 23:51:55.515 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1ms]
+2026-03-23 23:51:55.515 [info] fatal: bad revision 'refs/heads/main'
+2026-03-23 23:51:55.516 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2026-03-23 23:51:56.490 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-23 23:52:01.964 [info] > git check-ignore -v -z --stdin [0ms]
+2026-03-23 23:52:04.984 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-23 23:52:05.893 [info] > git check-ignore -v -z --stdin [4ms]
+2026-03-23 23:52:06.715 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-23 23:55:27.655 [info] > git check-ignore -v -z --stdin [5ms]
+2026-03-23 23:57:11.324 [info] > git check-ignore -v -z --stdin [9ms]
+2026-03-23 23:57:53.137 [info] > git check-ignore -v -z --stdin [2ms]
+2026-03-23 23:57:53.306 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-23 23:57:53.445 [info] > git show --textconv :.config/nvim/init.lua [5ms]
+2026-03-23 23:57:53.446 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/user/.config/nvim/init.lua.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Fnvim%2Finit.lua%22%2C%22ref%22%3A%22%22%7D
+2026-03-23 23:57:53.446 [info] > git ls-files --stage -- .config/nvim/init.lua [1ms]
+2026-03-23 23:57:53.447 [warning] [GitFileSystemProvider][stat] File not found - git:/home/user/.config/nvim/init.lua.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Fnvim%2Finit.lua%22%2C%22ref%22%3A%22%22%7D
+2026-03-23 23:57:53.953 [info] > git check-ignore -v -z --stdin [4ms]
+2026-03-23 23:59:50.527 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-24 00:00:08.902 [info] > git check-ignore -v -z --stdin [2ms]
+2026-03-24 00:00:09.123 [info] > git check-ignore -v -z --stdin [7ms]
+2026-03-24 00:00:09.195 [info] > git show --textconv :.config/nvim/.neoconf.json [9ms]
+2026-03-24 00:00:09.195 [info] > git ls-files --stage -- .config/nvim/.neoconf.json [3ms]
+2026-03-24 00:00:09.195 [warning] [GitFileSystemProvider][stat] File not found - git:/home/user/.config/nvim/.neoconf.json.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Fnvim%2F.neoconf.json%22%2C%22ref%22%3A%22%22%7D
+2026-03-24 00:00:09.195 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/user/.config/nvim/.neoconf.json.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Fnvim%2F.neoconf.json%22%2C%22ref%22%3A%22%22%7D
+2026-03-24 00:04:07.649 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-24 00:04:07.718 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-24 00:04:07.875 [info] > git show --textconv :.config/nvim/.neoconf.json [5ms]
+2026-03-24 00:04:07.875 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/user/.config/nvim/.neoconf.json.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Fnvim%2F.neoconf.json%22%2C%22ref%22%3A%22%22%7D
+2026-03-24 00:04:07.876 [info] > git ls-files --stage -- .config/nvim/.neoconf.json [2ms]
+2026-03-24 00:04:07.876 [warning] [GitFileSystemProvider][stat] File not found - git:/home/user/.config/nvim/.neoconf.json.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Fnvim%2F.neoconf.json%22%2C%22ref%22%3A%22%22%7D
+2026-03-24 00:07:02.147 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-24 00:07:03.712 [info] > git check-ignore -v -z --stdin [5ms]
+2026-03-24 00:07:03.794 [info] > git check-ignore -v -z --stdin [2ms]
+2026-03-24 00:07:03.900 [info] > git show --textconv :.config/ghostty/config [5ms]
+2026-03-24 00:07:03.900 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/user/.config/ghostty/config.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Fghostty%2Fconfig%22%2C%22ref%22%3A%22%22%7D
+2026-03-24 00:07:03.901 [info] > git ls-files --stage -- .config/ghostty/config [2ms]
+2026-03-24 00:07:03.902 [warning] [GitFileSystemProvider][stat] File not found - git:/home/user/.config/ghostty/config.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Fghostty%2Fconfig%22%2C%22ref%22%3A%22%22%7D
+2026-03-24 00:09:09.417 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-24 00:09:09.929 [info] > git check-ignore -v -z --stdin [2ms]
+2026-03-24 00:09:11.781 [info] > git check-ignore -v -z --stdin [87ms]
+2026-03-24 00:09:11.794 [info] > git show --textconv :.config/fastfetch/config.jsonc [7ms]
+2026-03-24 00:09:11.794 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/user/.config/fastfetch/config.jsonc.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Ffastfetch%2Fconfig.jsonc%22%2C%22ref%22%3A%22%22%7D
+2026-03-24 00:09:11.797 [info] > git ls-files --stage -- .config/fastfetch/config.jsonc [4ms]
+2026-03-24 00:09:11.797 [warning] [GitFileSystemProvider][stat] File not found - git:/home/user/.config/fastfetch/config.jsonc.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Ffastfetch%2Fconfig.jsonc%22%2C%22ref%22%3A%22%22%7D

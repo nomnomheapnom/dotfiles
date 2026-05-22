@@ -1,0 +1,103 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "ebf9052c881c2da5e587fbc5e794bc1d27973e245ae9b82528e4f92beb397f40",
+    "telemetry.devDeviceId": "0ed1babb-deb0-460f-8188-9bf36f13499a",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/user/.config/hypr"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/user": "__default__profile__",
+            "file:///home/user/.config": "__default__profile__",
+            "file:///usr/share/fastfetch/presets/examples": "__default__profile__",
+            "file:///home/user/.config/hypr": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "antigravityUnifiedStateSync.oauthToken.hasLegacyMigrated": true,
+    "unifiedStateSync.hasTrajectorySummariesMigrated": true,
+    "overrideStore.migratedSecureMode": true,
+    "antigravityUnifiedStateSync.browserPreferences.hasBrowserAllowlistMigrated": true,
+    "antigravityUnifiedStateSync.browserPreferences.hasAddedLocalhostToAllowlist": true,
+    "sidebarWorkspaces.migratedFromInitState": true,
+    "unifiedStateSync.hasWindowPreferencesMigrated": true,
+    "unifiedStateSync.hasUserStatusMigrated": true,
+    "scratchWorkspaces.migratedFromInitState": true,
+    "antigravityUnifiedStateSync.seenNuxOneTimeMigration": true,
+    "artifactReviewState.migratedFromInitState": true,
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 42,
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 300,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "d8892a554b47c6de8b38088a4b680bef": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "8b7a2fce475c9282ee235e9d0163a7cc": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "c7518933cdb9ce8e55dc912adee08690": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "814fbf4e18cebf29e9b20265d37f28e9": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/user/.config/hypr",
+            "backupPath": "/home/user/.config/Antigravity/Backups/9f51487b11b7e88d0dcd51a2fc200bd6",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 955,
+                "height": 1043
+            }
+        },
+        "openedWindows": []
+    }
+}

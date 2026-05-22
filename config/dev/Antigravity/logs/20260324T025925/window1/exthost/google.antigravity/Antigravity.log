@@ -1,0 +1,13 @@
+2026-03-24 02:59:38.594 [info] I0324 02:59:38.594022  9532 server.go:1150] Starting language server process with pid 9532
+2026-03-24 02:59:38.594 [info] I0324 02:59:38.594194  9532 server.go:269] Setting GOMAXPROCS to 4
+2026-03-24 02:59:38.595 [info] I0324 02:59:38.595460  9532 server.go:422] Language server will attempt to listen on host 127.0.0.1
+2026-03-24 02:59:38.595 [info] I0324 02:59:38.595603  9532 server.go:437] Language server listening on random port at 41533 for HTTPS
+2026-03-24 02:59:38.595 [info] I0324 02:59:38.595623  9532 server.go:444] Language server listening on random port at 44075 for HTTP
+2026-03-24 02:59:38.893 [info] I0324 02:59:38.893515  9532 server.go:414] Created extension server client at port 46835
+2026-03-24 02:59:38.898 [info] I0324 02:59:38.898607  9532 server.go:553] Using ApiServerClientV2
+2026-03-24 02:59:38.903 [info] I0324 02:59:38.903693  9532 cascade_manager.go:834] Reactive state is disabled
+2026-03-24 02:59:38.928 [info] (Antigravity) 2026-03-24 02:59:38.925 [INFO]: Language server started
+2026-03-24 02:59:38.960 [info] I0324 02:59:38.942503  9532 server.go:1530] initialized server successfully in 348.314341ms
+2026-03-24 02:59:39.008 [info] (Antigravity) 2026-03-24 02:59:39.008 [INFO]: LS lspClient started successfully
+2026-03-24 02:59:39.437 [info] 2026/03/24 02:59:39 http: TLS handshake error from 127.0.0.1:56416: EOF
+2026-03-24 02:59:39.643 [info] E0324 02:59:39.643117  9532 client.go:354] Unexpected state sync subscription error for topic uss-enterprisePreferences: internal: internal error.

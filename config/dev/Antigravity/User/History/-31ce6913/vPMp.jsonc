@@ -1,0 +1,145 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "~/.config/fastfetch/logo.txt",
+        "type": "ascii",
+        "padding": {
+            "top": 0,
+            "left": 2
+        }
+    },
+    "display": {
+        "color": {
+            "title": "cyan",
+            "separator": "white",
+            "keys": "yellow",
+            "values": "white"
+        },
+        "separator": "──>",
+        "showTitle": false
+    },
+    "modules": [
+        {
+            "type": "custom",
+            "format": "┌─[{$user}@{$hostname}] - [{$dir}] - [{$line}]",
+            "color": "cyan"
+        },
+        {
+            "type": "custom",
+            "format": "└─[$] fastfetch",
+            "color": "cyan"
+        },
+        {
+            "type": "break"
+        },
+        {
+            "type": "custom",
+            "format": "                  -`                     {$user}@{$hostname}",
+            "color": "white"
+        },
+        {
+            "type": "custom",
+            "format": "                 .o+`                    ------------------",
+            "color": "white"
+        },
+        {
+            "type": "os",
+            "format": "               `ooo/                    OS: {}"
+        },
+        {
+            "type": "host",
+            "format": "              `+oooo:                   Host: {}"
+        },
+        {
+            "type": "kernel",
+            "format": "             `+oooooo:                  Kernel: {}"
+        },
+        {
+            "type": "uptime",
+            "format": "              -+oooooo+:                 Uptime: {}"
+        },
+        {
+            "type": "packages",
+            "format": "            `/:-:++oooo+:                Packages: {} (pacman)"
+        },
+        {
+            "type": "shell",
+            "format": "           `/++++/+++++++:               Shell: {}"
+        },
+        {
+            "type": "custom",
+            "format": "          `/++++++++++++++:              Display (BOE0864): 1920x1080 in 15\", 60 Hz [Built-in]"
+        },
+        {
+            "type": "custom",
+            "format": "         `/+++ooooooooooooo/`            WM: Hyprland 0.54.2 (Wayland)"
+        },
+        {
+            "type": "cursor",
+            "format": "        ./ooosssso++osssssso+`           Cursor: {}"
+        },
+        {
+            "type": "terminal",
+            "format": "       .oossssso-````/ossssss+`          Terminal: {}"
+        },
+        {
+            "type": "terminalfont",
+            "format": "      -osssssso.      :ssssssso.         Terminal Font: {}"
+        },
+        {
+            "type": "cpu",
+            "format": "     :osssssss/        osssso+++.        CPU: {}"
+        },
+        {
+            "type": "gpu",
+            "format": "    /ossssssss/        +ssssooo/-        GPU 1: {} [Discrete]"
+        },
+        {
+            "type": "gpu",
+            "gpu": 1,
+            "format": "  `/ossssso+/:-        -:/+osssso+-      GPU 2: {} [Integrated]"
+        },
+        {
+            "type": "memory",
+            "format": " `+sso+:-`                 `.-/+oso:     Memory: {}"
+        },
+        {
+            "type": "custom",
+            "format": "`++:.                           `-/+/    Swap: 0 B / 7.65 GiB (0%)"
+        },
+        {
+            "type": "custom",
+            "format": ".`                                 `/    Disk (/): 9.13 GiB / 57.73 GiB (16%) - btrfs [Externa]"
+        },
+        {
+            "type": "localip",
+            "format": "                                         Local IP (wlan0): {}"
+        },
+        {
+            "type": "battery",
+            "format": "                                         Battery (01AV448): {} [Charging, AC Connected]"
+        },
+        {
+            "type": "locale",
+            "format": "                                         Locale: {}"
+        },
+        {
+            "type": "break"
+        },
+        {
+            "type": "custom",
+            "format": "",
+            "color": "reset"
+        },
+        {
+            "type": "custom",
+            "format": "┌─[{$user}@{$hostname}] - [~/.config] - [44]",
+            "color": "cyan"
+        },
+        {
+            "type": "custom",
+            "format": "└─[$]                                                                                [0:06:44]",
+            "color": "cyan"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+2026-03-24 02:59:34.540 [info] [main] Log level: Info
+2026-03-24 02:59:34.540 [info] [main] Validating found git in: "git"
+2026-03-24 02:59:34.540 [info] [main] Using git "2.53.0" from "git"
+2026-03-24 02:59:34.540 [info] [Model][doInitialScan] Initial repository scan started
+2026-03-24 02:59:34.540 [info] > git rev-parse --show-toplevel [11ms]
+2026-03-24 02:59:34.540 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [104ms]
+2026-03-24 02:59:34.540 [info] [Model][openRepository] Opened repository (path): /home/user
+2026-03-24 02:59:34.540 [info] [Model][openRepository] Opened repository (real path): /home/user
+2026-03-24 02:59:34.540 [info] [Model][openRepository] Opened repository (kind): repository
+2026-03-24 02:59:34.546 [info] > git rev-parse --show-toplevel [23ms]
+2026-03-24 02:59:34.547 [info] > git config --get commit.template [31ms]
+2026-03-24 02:59:34.566 [info] [Git][getRemotes] No remotes found in the git config file
+2026-03-24 02:59:34.568 [info] > git rev-parse --show-toplevel [10ms]
+2026-03-24 02:59:34.574 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2026-03-24 02:59:34.574 [warning] [Git][getBranch] No such branch: main
+2026-03-24 02:59:34.586 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-03-24 02:59:34.587 [info] > git rev-parse --show-toplevel [14ms]
+2026-03-24 02:59:34.593 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-24 02:59:34.601 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-24 02:59:34.607 [info] > git rev-parse --show-toplevel [2ms]
+2026-03-24 02:59:34.612 [info] > git rev-parse --show-toplevel [2ms]
+2026-03-24 02:59:34.615 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-03-24 02:59:34.840 [info] > git show --textconv :.config/fastfetch/config.jsonc [8ms]
+2026-03-24 02:59:34.848 [info] > git ls-files --stage -- .config/fastfetch/config.jsonc [11ms]
+2026-03-24 02:59:34.853 [info] > git hash-object -t tree /dev/null [8ms]
+2026-03-24 02:59:34.854 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/user/.config/fastfetch/config.jsonc.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Ffastfetch%2Fconfig.jsonc%22%2C%22ref%22%3A%22%22%7D
+2026-03-24 02:59:34.854 [info] > git hash-object -t tree /dev/null [2ms]
+2026-03-24 02:59:34.854 [warning] [GitFileSystemProvider][stat] File not found - git:/home/user/.config/fastfetch/config.jsonc.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2F.config%2Ffastfetch%2Fconfig.jsonc%22%2C%22ref%22%3A%22%22%7D
+2026-03-24 02:59:36.182 [info] > git status -z -uall [1603ms] (cancelled)
+2026-03-24 02:59:36.183 [info] > git check-ignore -v -z --stdin [960ms]
+2026-03-24 02:59:36.187 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [979ms]
+2026-03-24 02:59:36.187 [warning] [Git][getBranch] No such branch: main
+2026-03-24 02:59:36.188 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2026-03-24 02:59:36.206 [info] > git config --get commit.template [28ms]
+2026-03-24 02:59:36.214 [info] [Git][getRemotes] No remotes found in the git config file
+2026-03-24 02:59:36.215 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-03-24 02:59:36.215 [warning] [Git][getBranch] No such branch: main
+2026-03-24 02:59:36.228 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-03-24 02:59:36.608 [info] > git status -z -uall [388ms] (cancelled)
+2026-03-24 02:59:37.933 [info] > git check-ignore -v -z --stdin [177ms]

@@ -1,0 +1,86 @@
+2026-03-24 03:04:33.638 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 03:04:33.638 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 03:04:33.639 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 03:04:33.639 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 03:04:33.639 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 03:04:33.640 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 03:04:33.640 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 03:04:33.640 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 03:04:33.641 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 03:04:33.641 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 03:04:33.641 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 03:04:33.642 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 03:04:33.642 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 03:04:33.642 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 03:04:33.643 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 03:04:34.222 [info] Started local extension host with pid 11106.
+2026-03-24 03:04:34.313 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2026-03-24 03:04:41.694 [error] [createInstance] xoe depends on UNKNOWN service agentSessions.: Error: [createInstance] xoe depends on UNKNOWN service agentSessions.
+    at Cos.y (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5779:4186)
+    at Cos.o (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5779:1360)
+    at Cos.createInstance (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5779:1207)
+    at new gti (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6448:8181)
+    at new u6n (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6448:15815)
+    at Cos.o (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5779:1710)
+    at Cos.createInstance (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5779:1207)
+    at new pti (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6448:18528)
+    at Cos.o (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5779:1710)
+    at Cos.createInstance (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5779:1207)
+2026-03-24 03:05:20.072 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-03-24 03:05:20.072 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-03-24 03:05:20.074 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-03-24 03:05:20.075 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-03-24 03:05:20.075 [error] [google.antigravity]: Menu item references a command `antigravity.prioritized.chat.open` which is not defined in the 'commands' section.
+2026-03-24 03:05:21.031 [error] [Extension Host] Failed to update user status Error: LanguageServerClient must be initialized first!
+	at _.getInstance (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:961094)
+	at s.updateUserStatus (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1038275)
+	at s.restartUpdateLoop (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1038712)
+	at t.activate (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:610628)
+	at Rv.kb (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:16702)
+	at Rv.jb (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:16447)
+	at file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:14555
+	at async Qp.n (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:14144)
+	at async Qp.m (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:14107)
+	at async Qp.l (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:13563)
+2026-03-24 03:05:21.754 [error] [Extension Host] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 03:05:22.181 [error] [unknown] Failed to fetch: ConnectError: [unknown] Failed to fetch
+    at uje.from (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:4188:632922)
+    at vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:4188:646806
+    at async Object.unary (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:4256:14098)
+    at async Object.refreshMcpServers (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:4188:638833)
+2026-03-24 03:05:22.757 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-24 03:05:23.191 [error] [Extension Host] (node:11106) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///opt/Antigravity/resources/app/extensions/chrome-devtools-mcp/cdt_mcp/main.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /opt/Antigravity/resources/app/extensions/chrome-devtools-mcp/package.json.
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2026-03-24 03:05:26.868 [info] Extension host (LocalProcess pid: 11106) is unresponsive.
+2026-03-24 03:05:29.082 [error] command 'antigravity.isFileGitIgnored' not found: Error: command 'antigravity.isFileGitIgnored' not found
+    at FHt.n (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5656:5761)
+    at FHt.executeCommand (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5656:5693)
+    at async SWt.shouldShowInUri (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:4849:12075)
+    at async D5t.value (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:4806:33289)
+2026-03-24 03:05:47.773 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:4922:14449
+2026-03-24 03:05:50.522 [info] Extension host (LocalProcess pid: 11106) is responsive.
+2026-03-24 03:05:52.072 [error] Git error: Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 03:10:42.369 [error] Git error: Error: Git error
+	at sS.h (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:45042)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-03-24 03:10:42.373 [error] Git error: Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 03:10:44.249 [error] Git error: Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)

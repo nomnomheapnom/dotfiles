@@ -1,0 +1,265 @@
+@define-color void #000000;
+@define-color panel #000000;
+@define-color dust #592822;
+@define-color rust #b83a24;
+@define-color terra-cotta #cc5c43;
+@define-color clay #d97459;
+@define-color dust-storm #e68b6c;
+@define-color soil #c4644a;
+@define-color dark-rust #a84a32;
+@define-color inactive-text #a37267;
+@define-color foreground #c0caf5;
+
+* {
+  background-color: transparent;
+  color: @foreground;
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  font-family: "JetBrainsMonoNL Nerd Font", "JetBrainsMono Nerd Font Mono", monospace;
+  font-style: normal;
+  font-size: 13px;
+  transition: color 0.2s ease, background 0.2s ease;
+}
+
+window#waybar {
+  background-color: @void;
+  border: none;
+}
+
+.modules-left {
+  margin: 4px 0 4px 6px;
+}
+
+.modules-center {
+  margin: 4px 0;
+}
+
+.modules-right {
+  margin: 4px 6px 4px 0;
+}
+
+#custom-menu {
+  color: @rust;
+  padding: 0 10px;
+  margin: 4px 3px;
+  font-size: 16px;
+}
+
+#custom-ghosty,
+#custom-firefox,
+#custom-spotify {
+  padding: 0 10px;
+  margin: 4px 3px;
+  font-size: 14px;
+}
+
+#custom-ghosty {
+  color: @terra-cotta;
+}
+
+#custom-firefox {
+  color: @clay;
+}
+
+#custom-spotify {
+  color: @dust-storm;
+}
+
+#workspaces {
+  background-color: @panel;
+  border: 1px solid @dust;
+  border-radius: 0;
+  padding: 0;
+  margin: 4px 3px;
+}
+
+#workspaces button {
+  padding: 0 10px;
+  min-height: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  color: @inactive-text;
+  font-family: "JetBrainsMonoNL Nerd Font", "JetBrainsMono Nerd Font Mono", monospace;
+  font-size: 12px;
+  min-width: 0;
+  transition: color 0.1s ease, background 0.1s ease;
+}
+
+#workspaces button.active {
+  background-color: @rust;
+  color: #000000;
+  border: none;
+  margin: 0;
+}
+
+#workspaces button.empty {
+  color: rgba(163, 114, 103, 0.25);
+}
+
+#workspaces button.urgent {
+  background-color: rgba(184, 58, 36, 0.3);
+  color: @dust-storm;
+}
+
+#workspaces button:hover {
+  background-color: rgba(230, 139, 108, 0.15);
+  color: @dust-storm;
+}
+
+#mpris {
+  padding: 0 10px;
+  margin: 4px 3px;
+  color: @clay;
+  font-size: 13px;
+  min-width: 200px;
+}
+
+#custom-dnd {
+  font-size: 14px;
+  padding: 0 8px;
+  margin: 4px 3px;
+  color: @rust;
+  transition: color 0.2s ease;
+}
+
+#custom-dnd.active {
+  color: @dust-storm;
+}
+
+#custom-dnd.silenced {
+  color: @dark-rust;
+}
+
+#custom-expand-icon {
+  color: @inactive-text;
+  padding: 0 10px;
+  margin: 4px 3px;
+  font-size: 12px;
+}
+
+#tray {
+  padding: 0 8px;
+}
+
+#tray > .tray-group-item {
+  margin: 0 4px;
+}
+
+#clock {
+  background-color: @panel;
+  border: 1px solid @dust;
+  border-radius: 0;
+  padding: 0 12px;
+  margin: 4px 3px;
+  color: @rust;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+#bluetooth,
+#network,
+#pulseaudio,
+#cpu,
+#memory,
+#disk,
+#battery {
+  background-color: @panel;
+  border: 1px solid @dust;
+  border-radius: 0;
+  padding: 0 10px;
+  margin: 4px 3px;
+  font-size: 12px;
+}
+
+#network {
+  color: @terra-cotta;
+}
+#network.disconnected {
+  color: rgba(204, 92, 67, 0.3);
+}
+
+#pulseaudio {
+  color: @clay;
+}
+#pulseaudio.muted {
+  color: rgba(217, 116, 89, 0.3);
+}
+
+#bluetooth {
+  color: @inactive-text;
+}
+#bluetooth.connected {
+  color: @terra-cotta;
+}
+
+#cpu {
+  color: @dust-storm;
+}
+
+#memory {
+  color: @soil;
+}
+
+#disk {
+  color: @dark-rust;
+}
+
+#battery {
+  color: @terra-cotta;
+}
+
+#battery.charging {
+  color: @dust-storm;
+}
+
+#battery.warning {
+  color: @clay;
+}
+
+#battery.critical {
+  color: @dark-rust;
+  animation: blink 1.2s steps(2, start) infinite;
+}
+
+@keyframes blink {
+  to {
+    color: rgba(168, 74, 50, 0.15);
+  }
+}
+
+tooltip {
+  background: rgba(15, 12, 12, 0.95);
+  border: 1px solid @dust;
+  border-radius: 0;
+}
+
+tooltip label {
+  color: @foreground;
+  font-family: "JetBrainsMonoNL Nerd Font", "JetBrainsMono Nerd Font Mono", monospace;
+  font-size: 13px;
+  padding: 6px 10px;
+}
+
+menu {
+  background: rgba(15, 12, 12, 0.95);
+  border: 1px solid @dust;
+  border-radius: 0;
+  padding: 4px;
+}
+
+menuitem {
+  color: @foreground;
+  font-family: "JetBrainsMonoNL Nerd Font", "JetBrainsMono Nerd Font Mono", monospace;
+  font-size: 13px;
+  padding: 6px 10px;
+  border-radius: 0;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+menuitem:hover {
+  background: rgba(184, 58, 36, 0.15);
+  color: @rust;
+}

@@ -1,0 +1,51 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    // Logo settings
+    "logo": {
+        "source": "auto", // Built-in logo: "auto", "none", or path to image
+        "type": "auto", // "auto", "builtin", "file", "kitty", "sixel", etc.
+        "padding": {
+            "top": 2, // Padding above the logo
+            "left": 2 // Left padding
+        }
+    },
+    // Display settings
+    "display": {
+        "separator": ":", // Character between key and value
+        "color": {
+            "title": "blue", // Title color
+            "keys": "blue", // Key color
+            "values": "white", // Value color
+            "separator": "blue" // Separator color
+        },
+        "keyWidth": 15, // Fixed width for keys
+        "showErrors": false, // Display errors if they occur
+        "pipe": false // Disable colors (auto-detected)
+    },
+    // Modules to display (order matters)
+    "modules": [
+        "title", // user@hostname
+        "separator", // Separator line
+        "os", // Operating system
+        "host", // Host model
+        "kernel", // Kernel version
+        "uptime", // System uptime
+        "packages", // Package count
+        "shell", // Default shell
+        "display", // Display resolution
+        "wm", // Window manager
+        "theme", // GTK theme
+        "icons", // Icon theme
+        "cursor", // Cursor theme
+        "terminal", // Terminal emulator
+        "terminalfont", // Terminal font
+        "cpu", // CPU information
+        "gpu", // GPU information
+        "memory", // Memory usage
+        "swap", // Swap usage
+        "disk", // Disk usage
+        "battery", // Battery status
+        "localip", // Local IP address
+        "locale" // System locale
+    ]
+}

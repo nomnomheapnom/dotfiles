@@ -1,0 +1,120 @@
+2026-03-24 00:13:45.722 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:45.722 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:45.722 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:45.723 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:45.723 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:45.723 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:45.723 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:45.723 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:45.724 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:45.724 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:45.724 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:45.724 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:45.724 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:45.725 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:45.725 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:46.248 [info] Started local extension host with pid 35135.
+2026-03-24 00:13:46.280 [error] Extension 'ms-python.python' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider
+product.json (WINS): contribEditorContentMenu, quickPickSortByLabel, portsAttributes, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, notebookReplDocument
+2026-03-24 00:13:46.280 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-03-24 00:13:46.313 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-03-24 00:13:46.314 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-03-24 00:13:46.317 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-03-24 00:13:46.318 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-03-24 00:13:46.318 [error] [google.antigravity]: Menu item references a command `antigravity.prioritized.chat.open` which is not defined in the 'commands' section.
+2026-03-24 00:13:46.711 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2026-03-24 00:13:47.714 [error] [Extension Host] Failed to update user status Error: LanguageServerClient must be initialized first!
+	at _.getInstance (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:961094)
+	at s.updateUserStatus (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1038275)
+	at s.restartUpdateLoop (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1038712)
+	at t.activate (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:610628)
+	at Rv.kb (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:16702)
+	at Rv.jb (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:16447)
+	at file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:14555
+	at async Qp.n (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:14144)
+	at async Qp.m (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:14107)
+	at async Qp.l (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:13563)
+2026-03-24 00:13:48.842 [error] Extension 'ms-python.python' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider
+product.json (WINS): contribEditorContentMenu, quickPickSortByLabel, portsAttributes, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, notebookReplDocument
+2026-03-24 00:13:48.842 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-03-24 00:13:48.859 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-03-24 00:13:48.859 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-03-24 00:13:48.860 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-03-24 00:13:48.860 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-03-24 00:13:48.860 [error] [google.antigravity]: Menu item references a command `antigravity.prioritized.chat.open` which is not defined in the 'commands' section.
+2026-03-24 00:13:49.038 [error] Canceled: Error: Canceled
+    at wRu (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:4926:15745)
+    at vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:8368:10989
+    at async vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:8368:9260
+    at async qSu (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:4929:5191)
+    at async Promise.all (index 1)
+2026-03-24 00:13:49.868 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:49.868 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:49.869 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:49.869 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:49.869 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:49.870 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:49.870 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:49.870 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:49.870 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:49.871 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:49.871 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:49.872 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:49.872 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:49.872 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:49.872 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-03-24 00:13:50.249 [info] Started local extension host with pid 35472.
+2026-03-24 00:13:50.394 [error] Extension 'ms-python.python' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider
+product.json (WINS): contribEditorContentMenu, quickPickSortByLabel, portsAttributes, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, notebookReplDocument
+2026-03-24 00:13:50.394 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-03-24 00:13:50.436 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-03-24 00:13:50.437 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-03-24 00:13:50.450 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-03-24 00:13:50.451 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-03-24 00:13:50.451 [error] [google.antigravity]: Menu item references a command `antigravity.prioritized.chat.open` which is not defined in the 'commands' section.
+2026-03-24 00:13:50.978 [error] [createInstance] xoe depends on UNKNOWN service agentSessions.: Error: [createInstance] xoe depends on UNKNOWN service agentSessions.
+    at Cos.y (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5779:4186)
+    at Cos.o (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5779:1360)
+    at Cos.createInstance (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5779:1207)
+    at new gti (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6448:8181)
+    at new u6n (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6448:15815)
+    at Cos.o (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5779:1710)
+    at Cos.createInstance (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5779:1207)
+    at new pti (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6448:18528)
+    at Cos.o (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5779:1710)
+    at Cos.createInstance (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5779:1207)
+2026-03-24 00:13:52.712 [error] [Extension Host] Failed to update user status Error: LanguageServerClient must be initialized first!
+	at _.getInstance (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:961094)
+	at s.updateUserStatus (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1038275)
+	at s.restartUpdateLoop (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1038712)
+	at t.activate (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:610628)
+	at Rv.kb (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:16702)
+	at Rv.jb (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:16447)
+	at file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:14555
+	at async Qp.n (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:14144)
+	at async Qp.m (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:14107)
+	at async Qp.l (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:13563)
+2026-03-24 00:13:59.725 [info] Extension host (LocalProcess pid: 35472) is unresponsive.
+2026-03-24 00:14:20.314 [info] Extension host (LocalProcess pid: 35472) is responsive.
+2026-03-24 00:14:33.373 [error] [Extension Host] (node:35472) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///opt/Antigravity/resources/app/extensions/chrome-devtools-mcp/cdt_mcp/main.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /opt/Antigravity/resources/app/extensions/chrome-devtools-mcp/package.json.
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2026-03-24 00:14:36.923 [error] command 'antigravity.isFileGitIgnored' not found: Error: command 'antigravity.isFileGitIgnored' not found
+    at FHt.n (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5656:5761)
+    at FHt.executeCommand (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5656:5693)
+    at async SWt.shouldShowInUri (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:4849:12075)
+    at async vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:4849:11258
+2026-03-24 00:14:36.926 [error] command 'antigravity.isFileGitIgnored' not found: Error: command 'antigravity.isFileGitIgnored' not found
+    at FHt.n (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5656:5761)
+    at FHt.executeCommand (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5656:5693)
+    at async SWt.shouldShowInUri (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:4849:12075)
+    at async D5t.value (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:4806:33289)
+2026-03-24 00:14:36.929 [info] Extension host (LocalProcess pid: 35472) is unresponsive.
+2026-03-24 00:14:36.958 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-03-24 00:14:37.321 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-03-24 00:14:37.405 [info] Extension host (LocalProcess pid: 35472) is responsive.
+2026-03-24 00:14:37.420 [warning] UNRESPONSIVE extension host: 'google.antigravity-dev-containers' took 68.89890534449452% of 2.14ms, saved PROFILE here: 'file:///tmp/exthost-6d395c.cpuprofile'

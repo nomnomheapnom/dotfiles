@@ -1,0 +1,19 @@
+2026-03-24 03:03:42.809 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-03-24 03:03:42.809 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:35293
+2026-03-24 03:03:42.809 [info] update#setState idle
+2026-03-24 03:03:43.822 [error] [storage state.vscdb] exec(): Error: SQLITE_BUSY: database is locked
+2026-03-24 03:03:43.823 [error] [storage state.vscdb] open(): Unable to open DB due to Error: SQLITE_BUSY: database is locked
+2026-03-24 03:04:12.796 [info] update#setState checking for updates
+2026-03-24 03:04:13.069 [info] update#setState idle
+2026-03-24 03:05:52.693 [warning] [perf] profiling STARTED 45fdb370-03c3-4d78-ae98-ccc08f9b3f86
+2026-03-24 03:05:57.749 [warning] [perf] profiling DONE 45fdb370-03c3-4d78-ae98-ccc08f9b3f86
+2026-03-24 03:06:16.454 [warning] [perf] profiling STARTED 45fdb370-03c3-4d78-ae98-ccc08f9b3f86
+2026-03-24 03:06:21.477 [warning] [perf] profiling DONE 45fdb370-03c3-4d78-ae98-ccc08f9b3f86
+2026-03-24 03:06:36.812 [warning] [perf] profiling STARTED 45fdb370-03c3-4d78-ae98-ccc08f9b3f86
+2026-03-24 03:06:41.834 [warning] [perf] profiling DONE 45fdb370-03c3-4d78-ae98-ccc08f9b3f86
+2026-03-24 03:15:28.786 [warning] [perf] profiling STARTED 5daac4c2-cc1f-46dc-bfe2-6305c2a483b7
+2026-03-24 03:15:33.917 [warning] [perf] profiling DONE 5daac4c2-cc1f-46dc-bfe2-6305c2a483b7
+2026-03-24 03:15:49.634 [warning] [perf] profiling STARTED 5daac4c2-cc1f-46dc-bfe2-6305c2a483b7
+2026-03-24 03:15:54.769 [warning] [perf] profiling DONE 5daac4c2-cc1f-46dc-bfe2-6305c2a483b7
+2026-03-24 03:16:10.539 [warning] [perf] profiling STARTED 5daac4c2-cc1f-46dc-bfe2-6305c2a483b7
+2026-03-24 03:16:15.669 [warning] [perf] profiling DONE 5daac4c2-cc1f-46dc-bfe2-6305c2a483b7

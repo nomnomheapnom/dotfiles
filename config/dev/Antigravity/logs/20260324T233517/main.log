@@ -1,0 +1,5 @@
+2026-03-24 23:35:17.858 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-03-24 23:35:17.870 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:37775
+2026-03-24 23:35:17.932 [info] update#setState idle
+2026-03-24 23:35:47.934 [info] update#setState checking for updates
+2026-03-24 23:35:48.228 [info] update#setState idle

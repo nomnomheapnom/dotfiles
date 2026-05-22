@@ -1,0 +1,121 @@
+export ZSH="$HOME/.local/share/oh-my-zsh"
+export GOPATH="$HOME/.local/share/go"
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$GOPATH/bin:$HOME/.local/share/.cargo/bin:$PATH
+ZSH_THEME="duellj"
+plugins=(git)
+source $ZSH/oh-my-zsh.sh
+export EDITOR='nvim'
+export VISUAL='nvim'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias ~='cd ~'
+alias -- -='cd -'
+alias ls='eza --icons --group-directories-first'
+alias ll='eza -la --icons --group-directories-first'
+alias la='eza -a --icons --group-directories-first'
+alias lt='eza --tree --icons --level=2'
+alias lt3='eza --tree --icons --level=3'
+alias cat='bat --style=plain'
+alias catn='bat'
+alias cd='z'
+alias grep='rg'
+alias find='fd'
+alias vim='nvim'
+alias vi='nvim'
+alias v='nvim'
+alias e='nvim .'
+alias lg='lazygit'
+alias gs='git status -sb'
+alias ga='git add'
+alias gaa='git add --all'
+alias gc='git commit -m'
+alias gca='git commit --amend --no-edit'
+alias gp='git push'
+alias gpf='git push --force-with-lease'
+alias gl='git log --oneline --graph --decorate -20'
+alias gla='git log --oneline --graph --decorate --all -30'
+alias gd='git diff'
+alias gds='git diff --staged'
+alias gco='git checkout'
+alias gsw='git switch'
+alias gb='git branch -a'
+alias gst='git stash'
+alias gstp='git stash pop'
+alias grb='git rebase -i'
+alias gpl='git pull --rebase'
+alias gcl='git clone --depth=1'
+alias ff='fastfetch'
+alias bt='btop'
+alias fm='vifm .'
+alias duf='df -h'
+alias free='free -h'
+alias psg='ps aux | rg'
+alias ports='ss -tulnp'
+alias myip='curl -s ifconfig.me'
+alias wt='curl -s wttr.in/?format=3'
+alias pac='sudo pacman -S'
+alias pacu='sudo pacman -Syu'
+alias pacr='sudo pacman -Rns'
+alias pacq='pacman -Qs'
+alias pacs='pacman -Ss'
+alias pacf='pacman -F'
+alias cleanup='sudo pacman -Rns $(pacman -Qdtq) 2>/dev/null; sudo pacman -Sc --noconfirm'
+alias mirrors='sudo reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
+alias ta='tmux attach -t'
+alias tn='tmux new -s'
+alias tl='tmux ls'
+alias tk='tmux kill-session -t'
+alias hc='hyprctl'
+alias hr='hyprctl reload'
+alias hw='hyprctl clients'
+alias hm='hyprctl monitors'
+alias cr='cargo run'
+alias cb='cargo build'
+alias ct='cargo test'
+alias cc='cargo check'
+alias cn='cargo new'
+alias zb='zig build'
+alias zr='zig build run'
+alias zt='zig build test'
+alias mk='make -j$(nproc)'
+alias mkdir='mkdir -pv'
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias rm='rm -Iv'
+alias ln='ln -iv'
+alias chmod='chmod -v'
+alias chown='chown -v'
+alias zshrc='nvim $ZDOTDIR/.zshrc && source $ZDOTDIR/.zshrc'
+alias hyprconf='nvim ~/.config/gui/hypr/hyprland.conf'
+alias wayconf='nvim ~/.config/gui/waybar/config.jsonc'
+alias waycss='nvim ~/.config/gui/waybar/style.css'
+alias copy='wl-copy'
+alias paste='wl-paste'
+alias c='clear'
+alias h='history | tail -30'
+alias reload='source $ZDOTDIR/.zshrc'
+alias path='echo $PATH | tr ":" "\n"'
+alias weather='curl wttr.in'
+alias sha='shasum -a 256'
+alias epoch='date +%s'
+alias now='date "+%Y-%m-%d %H:%M:%S"'
+alias sizeof='du -sh'
+alias biggest='du -sh * | sort -rh | head -10'
+if command -v zoxide >/dev/null 2>&1; then
+  eval "$(zoxide init zsh)"
+fi
+
+# Organized History & Tools (XDG Compliance)
+export HISTFILE="$HOME/.local/share/history/zsh_history"
+export CARGO_HOME="$HOME/.local/share/.cargo"
+export RUSTUP_HOME="$HOME/.local/share/.rustup"
+export GOPATH="$HOME/.local/share/go"
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$GOPATH/bin:$HOME/.local/share/.cargo/bin:$PATH
+export NPM_CONFIG_USERCONFIG="$HOME/.local/share/.npmrc"
+export LESSHISTFILE="$HOME/.local/share/history/less_history"
+export WGETRC="$HOME/.config/cli/wgetrc"
+export GNUPGHOME="$HOME/.local/share/gnupg"
+
+# Cache Management
+export ZCOMPDUMP="$HOME/.cache/zsh/zcompdump-$ZSH_VERSION"

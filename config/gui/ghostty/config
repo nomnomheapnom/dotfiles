@@ -1,0 +1,54 @@
+font-family = JetBrainsMonoNL Nerd Font
+font-size = 11
+
+background = "#000000"
+foreground = "#D9AFA7"
+cursor-color = "#FF6B4A"
+selection-background = "#4A2C2C"
+selection-foreground = "#D9AFA7"
+palette = 0=#000000
+palette = 1=#E07B5F
+palette = 2=#7B534E
+palette = 3=#C45A3F
+palette = 4=#7B534E
+palette = 5=#A0392F
+palette = 6=#7B534E
+palette = 7=#D9AFA7
+palette = 8=#4A2C2C
+palette = 9=#FF6B4A
+palette = 10=#7B534E
+palette = 11=#E07B5F
+palette = 12=#7B534E
+palette = 13=#C45A3F
+palette = 14=#7B534E
+palette = 15=#D9AFA7
+
+confirm-close-surface = false
+resize-overlay = never
+
+# Softens the look to match the warm colors
+window-padding-x = 10
+window-padding-y = 10
+
+# If you're on macOS, this makes the titlebar disappear 
+# and lets your background color take over
+ macos-titlebar-style = "hidden"
+
+# Matches the cursor to your vibrant palette 1 color
+cursor-style = "block"
+# cursor-blink = false
+
+# --- Terminator-style Splits ---
+# Split Horizontally (Top/Bottom)
+keybind = ctrl+shift+o=new_split:down
+# Split Vertically (Left/Right)
+keybind = ctrl+shift+e=new_split:right
+
+# --- Navigation (Alt + Arrows) ---
+keybind = alt+up=goto_split:up
+keybind = alt+down=goto_split:down
+keybind = alt+left=goto_split:left
+keybind = alt+right=goto_split:right
+
+# Close current split (Matches Terminator's Ctrl+Shift+W)
+keybind = ctrl+shift+w=close_surface

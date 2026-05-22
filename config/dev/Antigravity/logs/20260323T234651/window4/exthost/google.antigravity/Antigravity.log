@@ -1,0 +1,131 @@
+2026-03-23 23:48:46.063 [info] I0323 23:48:46.063440  8474 server.go:1150] Starting language server process with pid 8474
+2026-03-23 23:48:46.063 [info] I0323 23:48:46.063513  8474 server.go:269] Setting GOMAXPROCS to 4
+2026-03-23 23:48:46.064 [info] I0323 23:48:46.064408  8474 server.go:422] Language server will attempt to listen on host 127.0.0.1
+2026-03-23 23:48:46.064 [info] I0323 23:48:46.064610  8474 server.go:437] Language server listening on random port at 35095 for HTTPS
+2026-03-23 23:48:46.064 [info] I0323 23:48:46.064642  8474 server.go:444] Language server listening on random port at 38103 for HTTP
+2026-03-23 23:48:46.370 [info] I0323 23:48:46.370008  8474 server.go:414] Created extension server client at port 44305
+2026-03-23 23:48:46.373 [info] I0323 23:48:46.372820  8474 server.go:553] Using ApiServerClientV2
+2026-03-23 23:48:46.374 [info] I0323 23:48:46.374450  8474 cascade_manager.go:834] Reactive state is disabled
+2026-03-23 23:48:46.420 [info] (Antigravity) 2026-03-23 23:48:46.417 [INFO]: Language server started
+2026-03-23 23:48:46.509 [info] I0323 23:48:46.460658  8474 server.go:1530] initialized server successfully in 397.128699ms
+2026-03-23 23:48:46.604 [info] (Antigravity) 2026-03-23 23:48:46.603 [INFO]: LS lspClient started successfully
+2026-03-23 23:48:47.977 [info] I0323 23:48:47.977556  8474 system_mcps.go:80] Chrome DevTools MCP URL discovered at http://127.0.0.1:39591/mcp, stopping watcher
+2026-03-23 23:49:43.565 [info] (Antigravity) 2026-03-23 23:49:43.565 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-03-23 23:49:45.904 [info] I0323 23:49:45.904237  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2273282c15ef49af
+2026-03-23 23:49:49.169 [info] I0323 23:49:49.169161  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5ee8a58ce610fa84
+2026-03-23 23:49:49.886 [info] I0323 23:49:49.886177  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xdb2fdc3482ab2858
+2026-03-23 23:50:02.175 [info] I0323 23:50:02.174376  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x901a4f2cd7390e86
+2026-03-23 23:50:06.866 [info] I0323 23:50:06.865408  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4d4315e69f7adfc6
+2026-03-23 23:50:08.114 [info] I0323 23:50:08.113613  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x964afcc3e2246a80
+2026-03-23 23:50:25.625 [info] I0323 23:50:25.624554  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb200ad897973d354
+2026-03-23 23:50:30.335 [info] I0323 23:50:30.334751  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb865568a14a591c7
+2026-03-23 23:50:33.958 [info] I0323 23:50:33.957679  8474 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.20.6
+2026-03-23 23:50:34.354 [info] I0323 23:50:34.354077  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xacb6b84a72a7e0bd
+2026-03-23 23:51:26.279 [info] (Antigravity) 2026-03-23 23:51:26.278 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-03-23 23:51:26.663 [info] (Antigravity) 2026-03-23 23:51:26.663 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-03-23 23:51:32.720 [info] (Antigravity) 2026-03-23 23:51:32.720 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-03-23 23:51:34.185 [info] I0323 23:51:34.184498  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe0d12c053e483a3
+2026-03-23 23:51:34.611 [info] I0323 23:51:34.611003  8474 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.20.6
+2026-03-23 23:51:35.565 [info] I0323 23:51:35.564831  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf876ab17d3542c37
+2026-03-23 23:54:38.172 [info] I0323 23:54:38.172013  8474 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.20.6
+2026-03-23 23:54:38.415 [info] I0323 23:54:38.414768  8474 planner_generator.go:285] Requesting planner with 7 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:54:41.628 [info] I0323 23:54:41.627582  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xed97c12eef5c166c
+2026-03-23 23:54:47.034 [info] I0323 23:54:47.034495  8474 planner_generator.go:285] Requesting planner with 10 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:54:47.873 [info] I0323 23:54:47.872813  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x40204cb93f1be489
+2026-03-23 23:54:48.897 [info] I0323 23:54:48.896848  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2ffc86cab432a08e
+2026-03-23 23:54:49.761 [info] I0323 23:54:49.760156  8474 planner_generator.go:285] Requesting planner with 13 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:54:52.072 [info] I0323 23:54:52.071461  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5be5a3cfa0b8d504
+2026-03-23 23:54:53.211 [info] I0323 23:54:53.211041  8474 planner_generator.go:285] Requesting planner with 16 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:54:56.372 [info] I0323 23:54:56.372100  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfbfa1244dfb477a3
+2026-03-23 23:54:56.886 [info] I0323 23:54:56.886557  8474 planner_generator.go:285] Requesting planner with 18 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:54:59.854 [info] I0323 23:54:59.853905  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x67e8e27c55c1faac
+2026-03-23 23:55:02.525 [info] I0323 23:55:02.524936  8474 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.20.6
+2026-03-23 23:55:02.549 [info] I0323 23:55:02.549157  8474 planner_generator.go:285] Requesting planner with 20 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:55:04.258 [info] I0323 23:55:04.257618  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2805c8d751334358
+2026-03-23 23:55:26.996 [info] I0323 23:55:26.996268  8474 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.20.6
+2026-03-23 23:55:27.003 [info] E0323 23:55:27.002712  8474 log.go:398] internal: internal error
+2026-03-23 23:55:29.045 [info] E0323 23:55:29.024241  8474 log.go:398] internal: internal error
+2026-03-23 23:55:31.059 [info] I0323 23:55:31.058744  8474 planner_generator.go:285] Requesting planner with 23 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:55:33.230 [info] I0323 23:55:33.230038  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd7d1c6f902c2a815
+2026-03-23 23:55:36.035 [info] I0323 23:55:36.035743  8474 planner_generator.go:285] Requesting planner with 25 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:55:37.639 [info] I0323 23:55:37.639056  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5edcd22ba619537b
+2026-03-23 23:56:33.274 [info] I0323 23:56:33.273860  8474 planner_generator.go:285] Requesting planner with 29 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:56:34.881 [info] I0323 23:56:34.880778  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9f8be609fd402f15
+2026-03-23 23:56:37.446 [info] I0323 23:56:37.445410  8474 planner_generator.go:206] Model output error: path is not in a workspace which you have access to: either proceed without accessing that path, or ask the user if they are willing to turn off workspace validation
+2026-03-23 23:56:37.446 [info] E0323 23:56:37.445686  8474 log.go:398] path is not in a workspace which you have access to: either proceed without accessing that path, or ask the user if they are willing to turn off workspace validation
+2026-03-23 23:56:37.459 [info] I0323 23:56:37.459063  8474 planner_generator.go:285] Requesting planner with 31 chat messages at model retry attempt 2 and API retry attempt 1
+2026-03-23 23:56:39.899 [info] I0323 23:56:39.898630  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd9109707ed66fc57
+2026-03-23 23:56:41.964 [info] (Antigravity) 2026-03-23 23:56:41.964 [INFO]: [Terminal] Command completed: ls /home/user/.config/nvim/ && nvim --version 2>&1 | head -3 exit code 0
+2026-03-23 23:56:42.014 [info] I0323 23:56:42.014170  8474 planner_generator.go:285] Requesting planner with 32 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:56:43.585 [info] I0323 23:56:43.584662  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x617ec7b1148b31ed
+2026-03-23 23:56:47.618 [info] (Antigravity) 2026-03-23 23:56:47.618 [INFO]: [Terminal] Command completed: ls /home/user/.local/share/nvim/lazy/ 2>/dev/null | head -20 || echo "NO LAZY PLUGINS INSTALLED" exit code 0
+2026-03-23 23:56:47.642 [info] I0323 23:56:47.642301  8474 planner_generator.go:285] Requesting planner with 34 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:56:49.155 [info] I0323 23:56:49.155342  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x892448f45e8a0e83
+2026-03-23 23:56:51.388 [info] (Antigravity) 2026-03-23 23:56:51.388 [INFO]: [Terminal] Command completed: ls /home/user/.local/share/nvim/lazy/ | wc -l exit code 0
+2026-03-23 23:56:51.407 [info] I0323 23:56:51.407361  8474 planner_generator.go:285] Requesting planner with 36 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:56:53.927 [info] I0323 23:56:53.927416  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x11bdfef37da7442c
+2026-03-23 23:56:57.830 [info] I0323 23:56:57.830142  8474 planner_generator.go:285] Requesting planner with 38 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:57:00.686 [info] I0323 23:57:00.686099  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x50c0fc35f940582c
+2026-03-23 23:57:04.722 [info] I0323 23:57:04.722277  8474 planner_generator.go:285] Requesting planner with 40 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:57:07.866 [info] I0323 23:57:07.865805  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xff32fb1ba6553c86
+2026-03-23 23:57:10.722 [info] E0323 23:57:10.720794  8474 log.go:398] internal: internal error
+2026-03-23 23:57:12.757 [info] I0323 23:57:12.757456  8474 planner_generator.go:285] Requesting planner with 42 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:57:14.407 [info] I0323 23:57:14.407448  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf854ff7254a0fbeb
+2026-03-23 23:57:15.778 [info] I0323 23:57:15.778161  8474 planner_generator.go:285] Requesting planner with 44 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:57:17.377 [info] I0323 23:57:17.377239  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe799e81322fdf7a2
+2026-03-23 23:57:30.124 [info] I0323 23:57:30.123946  8474 planner_generator.go:285] Requesting planner with 46 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:57:33.454 [info] I0323 23:57:33.454057  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2e8cbfe242f4515
+2026-03-23 23:57:39.523 [info] I0323 23:57:39.522502  8474 planner_generator.go:285] Requesting planner with 48 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:57:41.954 [info] I0323 23:57:41.953983  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4a63aacf160800b3
+2026-03-23 23:57:45.700 [info] (Antigravity) 2026-03-23 23:57:45.700 [INFO]: [Terminal] Command completed: nvim --headless "+Lazy! sync" +qa 2>&1 | tail -5 exit code 0
+2026-03-23 23:57:45.715 [info] I0323 23:57:45.714728  8474 planner_generator.go:285] Requesting planner with 50 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:57:47.483 [info] I0323 23:57:47.482944  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x278346353e1cb2b9
+2026-03-23 23:57:51.134 [info] (Antigravity) 2026-03-23 23:57:51.133 [INFO]: [Terminal] Command completed: ls /home/user/.local/share/nvim/lazy/ | grep -i mars exit code 0
+2026-03-23 23:57:51.148 [info] I0323 23:57:51.148532  8474 planner_generator.go:285] Requesting planner with 52 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:57:52.706 [info] I0323 23:57:52.705665  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x370e943b993c064f
+2026-03-23 23:57:53.372 [info] (Antigravity) 2026-03-23 23:57:53.372 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-03-23 23:59:27.872 [info] I0323 23:59:27.872223  8474 planner_generator.go:285] Requesting planner with 56 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:59:29.372 [info] I0323 23:59:29.371678  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb39432f90fd6e1bb
+2026-03-23 23:59:33.000 [info] I0323 23:59:32.999761  8474 planner_generator.go:285] Requesting planner with 58 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:59:34.594 [info] I0323 23:59:34.593870  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x43da2356f3d7050c
+2026-03-23 23:59:40.759 [info] I0323 23:59:40.759123  8474 planner_generator.go:285] Requesting planner with 60 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:59:42.792 [info] I0323 23:59:42.792043  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7eb8fb8f03426544
+2026-03-23 23:59:49.885 [info] E0323 23:59:49.875268  8474 log.go:398] internal: internal error
+2026-03-23 23:59:51.920 [info] I0323 23:59:51.919984  8474 planner_generator.go:285] Requesting planner with 62 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-23 23:59:54.869 [info] I0323 23:59:54.868821  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2ae902c4abbd81ed
+2026-03-24 00:00:09.213 [info] I0324 00:00:09.213030  8474 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.20.6
+2026-03-24 00:00:09.717 [info] I0324 00:00:09.717172  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3cb7f3dd542103ca
+2026-03-24 00:02:13.428 [info] I0324 00:02:13.427845  8474 planner_generator.go:285] Requesting planner with 66 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 00:02:15.671 [info] I0324 00:02:15.670925  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc26c68ef303ae7fc
+2026-03-24 00:02:19.774 [info] (Antigravity) 2026-03-24 00:02:19.774 [INFO]: [Terminal] Command completed: fastfetch --version 2>&1 && ls /home/user/.config/fastfetch/ 2>/dev/null || echo "NO CONFIG DIR" exit code 0
+2026-03-24 00:02:19.792 [info] I0324 00:02:19.792037  8474 planner_generator.go:285] Requesting planner with 67 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 00:02:20.689 [info] I0324 00:02:20.688735  8474 planner_generator.go:320] Encountered retryable api error. retrying in 5s. Error (The model is currently unreachable.): UNAVAILABLE (code 503): No capacity available for model claude-sonnet-4-6 on the server: UNAVAILABLE (code 503): No capacity available for model claude-sonnet-4-6 on the server
+2026-03-24 00:02:25.693 [info] E0324 00:02:25.693138  8474 log.go:398] UNAVAILABLE (code 503): No capacity available for model claude-sonnet-4-6 on the server: UNAVAILABLE (code 503): No capacity available for model claude-sonnet-4-6 on the server
+2026-03-24 00:02:25.713 [info] I0324 00:02:25.712304  8474 planner_generator.go:285] Requesting planner with 68 chat messages at model retry attempt 1 and API retry attempt 2
+2026-03-24 00:02:26.526 [info] E0324 00:02:26.526170  8474 log.go:398] agent executor error: RESOURCE_EXHAUSTED (code 429): You have exhausted your capacity on this model. Your quota will reset after 167h26m2s.: RESOURCE_EXHAUSTED (code 429): You have exhausted your capacity on this model. Your quota will reset after 167h26m2s.
+2026-03-24 00:02:49.489 [info] E0324 00:02:49.488604  8474 log.go:398] executor is not currently running
+2026-03-24 00:02:52.023 [info] I0324 00:02:52.023335  8474 planner_generator.go:285] Requesting planner with 66 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 00:02:52.442 [info] E0324 00:02:52.441776  8474 log.go:398] agent executor error: RESOURCE_EXHAUSTED (code 429): You have exhausted your capacity on this model. Your quota will reset after 167h25m36s.: RESOURCE_EXHAUSTED (code 429): You have exhausted your capacity on this model. Your quota will reset after 167h25m36s.
+2026-03-24 00:07:04.953 [info] I0324 00:07:04.953420  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf5f523cb82bf840d
+2026-03-24 00:09:12.413 [info] I0324 00:09:12.412961  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4bb49ba93ed2f027
+2026-03-24 00:09:17.591 [info] I0324 00:09:17.591066  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x33fee17ddc27a774
+2026-03-24 00:09:17.729 [info] I0324 00:09:17.728872  8474 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.20.6
+2026-03-24 00:09:18.633 [info] I0324 00:09:18.633135  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9bb23c9fdf8ba78e
+2026-03-24 00:09:23.410 [info] I0324 00:09:23.409931  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xabbc6926e94858ff
+2026-03-24 00:09:28.828 [info] I0324 00:09:28.827817  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2c01f08255c9f9cd
+2026-03-24 00:10:01.509 [info] (Antigravity) 2026-03-24 00:10:01.509 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-03-24 00:10:03.033 [info] I0324 00:10:03.032731  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa4d9f796f396b2ee
+2026-03-24 00:10:12.046 [info] I0324 00:10:12.041052  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8f2bdfccdc413e99
+2026-03-24 00:10:12.860 [info] I0324 00:10:12.860128  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6d5a3aaa442d717a
+2026-03-24 00:10:20.335 [info] I0324 00:10:20.334951  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x660d6f9b9d64ae69
+2026-03-24 00:11:54.017 [info] (Antigravity) 2026-03-24 00:11:54.017 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-03-24 00:11:56.252 [info] I0324 00:11:56.252369  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xaf107af33ed2564a
+2026-03-24 00:13:12.061 [info] I0324 00:13:12.060403  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x61917ab3bf85815b
+2026-03-24 00:13:12.880 [info] I0324 00:13:12.879742  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x15d0f0c27354b13a
+2026-03-24 00:13:26.397 [info] I0324 00:13:26.397029  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x81e9a5b1090b3b13
+2026-03-24 00:13:27.113 [info] I0324 00:13:27.113251  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xeea28543ff74caad
+2026-03-24 00:13:55.275 [info] I0324 00:13:55.274848  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfcf5549bbf0017ad
+2026-03-24 00:13:55.923 [info] I0324 00:13:55.922986  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x17e191272475e594
+2026-03-24 00:13:56.708 [info] I0324 00:13:56.706439  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6300896de3b51fde
+2026-03-24 00:14:39.944 [info] (Antigravity) 2026-03-24 00:14:39.944 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-03-24 00:14:41.901 [info] I0324 00:14:41.900477  8474 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcfd37c9e825eef5c

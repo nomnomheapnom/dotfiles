@@ -1,0 +1,118 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "kitty",
+    "source": "~/.config/fastfetch/image.png",
+    "width": 30,
+    "height": 14,
+    "padding": {
+      "top": 2,
+      "left": 2
+    }
+  },
+  "display": {
+    "separator": "  ",
+    "color": {
+      "keys": "magenta",
+      "title": "blue"
+    }
+  },
+  "modules": [
+    "title",
+    {
+      "type": "custom",
+      "format": "┌─────────────────── System ──────────────────┐",
+      "outputColor": "blue"
+    },
+    {
+      "type": "os",
+      "key": "│  OS     ",
+      "keyColor": "blue",
+      "format": "{1}"
+    },
+    {
+      "type": "kernel",
+      "key": "│  Ker    ",
+      "keyColor": "blue",
+      "format": "{2}"
+    },
+    {
+      "type": "uptime",
+      "key": "│ 󰅐 Upt    ",
+      "keyColor": "blue"
+    },
+    {
+      "type": "packages",
+      "key": "│ 󰏖 Pkg    ",
+      "keyColor": "blue"
+    },
+    {
+      "type": "custom",
+      "format": "├─────────────────── Desktop ─────────────────┤",
+      "outputColor": "cyan"
+    },
+    {
+      "type": "wm",
+      "key": "│  WM     ",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "terminal",
+      "key": "│  Term   ",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "shell",
+      "key": "│  Shell  ",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "custom",
+      "format": "├─────────────────── Hardware ────────────────┤",
+      "outputColor": "magenta"
+    },
+    {
+      "type": "cpu",
+      "key": "│  CPU    ",
+      "keyColor": "magenta",
+      "format": "{1}"
+    },
+    {
+      "type": "gpu",
+      "key": "│ 󰢮 GPU    ",
+      "keyColor": "magenta",
+      "format": "{2}"
+    },
+    {
+      "type": "memory",
+      "key": "│  Mem    ",
+      "keyColor": "magenta",
+      "format": "{1} / {2} ({3})"
+    },
+    {
+      "type": "battery",
+      "key": "│  Batt   ",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "custom",
+      "format": "├─────────────────── Network ─────────────────┤",
+      "outputColor": "green"
+    },
+    {
+      "type": "localip",
+      "key": "│ 󰩠 IP     ",
+      "keyColor": "green"
+    },
+    {
+      "type": "custom",
+      "format": "└─────────────────────────────────────────────┘",
+      "outputColor": "blue"
+    },
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle"
+    }
+  ]
+}

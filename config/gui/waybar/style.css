@@ -1,0 +1,295 @@
+@define-color background #0a0a0a;
+@define-color foreground #f8f8f2;
+
+/* ── Global Reset ─────────────────────────────────────────────── */
+* {
+  background-color: transparent;
+  color: @foreground;
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  font-family: "JetBrainsMonoNL Nerd Font", monospace;
+  font-style: normal;
+  font-size: 12px;
+}
+
+window#waybar {
+  background-color: @background;
+  transition: background-color 0.2s ease;
+}
+
+/* ── Layout: Module Groups ────────────────────────────────────── */
+.modules-left {
+  margin-left: 4px;
+}
+
+.modules-center {
+  /* centered group stays clean */
+}
+
+.modules-right {
+  margin-right: 4px;
+}
+
+/* ── Left: Logo ───────────────────────────────────────────────── */
+#custom-menu {
+  background-color: transparent;
+  color: #8be9fd;
+  padding: 0 8px;
+  margin: 3px 6px;
+  font-size: 11px;
+}
+#custom-menu:hover {
+  text-shadow: 0 0 8px rgba(139, 233, 253, 0.4);
+}
+
+/* ── Left: Workspaces (Aesthetic Style) ────────────────────────── */
+#workspaces {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+#workspaces button {
+  all: initial;
+  background-color: transparent;
+  color: #6272a4;
+  font-family: "JetBrainsMonoNL Nerd Font", monospace;
+  font-size: 11px;
+  padding: 0 6px;
+  margin: 3px 2px;
+  border: 1px solid transparent; /* Prevent layout shift */
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+#workspaces button.active {
+  color: #8be9fd;
+  border: 1px solid #8be9fd;
+}
+#workspaces button.empty {
+  opacity: 0.5;
+}
+#workspaces button:hover {
+  color: #f8f8f2;
+  text-shadow: 0 0 5px rgba(248, 248, 242, 0.4);
+}
+
+/* ── Left: Media Player ───────────────────────────────────────── */
+#mpris {
+  background-color: transparent;
+  padding: 0 8px;
+  margin: 3px 6px;
+  font-family: "JetBrainsMonoNL Nerd Font", monospace;
+  color: #cba6f7;
+  font-size: 12px;
+  min-width: 250px; /* Stabilize width during song changes */
+}
+#mpris:hover {
+  text-shadow: 0 0 5px rgba(203, 166, 247, 0.4);
+}
+
+/* ── Center: Clock ────────────────────────────────────────────── */
+#clock {
+  background-color: #0a0a0a;
+  border: 1px solid #333333;
+  border-radius: 0;
+  padding: 0 6px;
+  margin: 3px 2px;
+  font-family: "JetBrainsMonoNL Nerd Font", monospace;
+  color: #f1fa8c;
+  font-size: 11px;
+}
+#clock:hover {
+  background-color: #1a1a1a;
+  border-color: #555555;
+}
+
+/* ── Center: Indicators ───────────────────────────────────────── */
+#custom-update {
+  font-size: 10px;
+  margin: 0 4px;
+}
+
+#custom-voxtype {
+  min-width: 12px;
+  margin: 0 4px;
+}
+
+#custom-voxtype.recording {
+  color: #e06060;
+}
+
+#custom-screenrecording-indicator,
+#custom-idle-indicator,
+#custom-notification-silencing-indicator {
+  min-width: 12px;
+  margin: 0 3px;
+  font-size: 10px;
+  padding-bottom: 1px;
+}
+
+#custom-screenrecording-indicator.active {
+  color: #e06060;
+}
+
+#custom-idle-indicator.active,
+#custom-notification-silencing-indicator.active {
+  color: #e8a040;
+}
+
+/* ── Right: System Tray ───────────────────────────────────────── */
+#tray-expander {
+  background-color: #0a0a0a;
+  border: 1px solid #333333;
+  margin: 3px 2px;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+#tray-expander:hover {
+  background-color: #1a1a1a;
+  border-color: #555555;
+}
+
+#custom-expand-icon {
+  color: #bd93f9;
+  padding: 0 8px;
+  font-size: 11px;
+}
+
+#custom-expand-icon:hover {
+  color: #8be9fd;
+  text-shadow: 0 0 5px rgba(139, 233, 253, 0.4);
+}
+
+#tray {
+  padding: 0 8px;
+}
+
+#tray > .tray-group-item {
+  margin: 0 4px;
+}
+
+/* ── Right: Connectivity & Stats (Terminal Layout) ────────────── */
+#bluetooth,
+#network,
+#pulseaudio,
+#cpu,
+#memory,
+#disk,
+#battery {
+  background-color: #0a0a0a;
+  border: 1px solid #333333;
+  border-radius: 0;
+  padding: 0 8px;
+  margin: 3px 2px;
+  font-family: "JetBrainsMonoNL Nerd Font", monospace;
+  font-size: 11px;
+}
+
+#bluetooth:hover,
+#network:hover,
+#pulseaudio:hover,
+#cpu:hover,
+#memory:hover,
+#disk:hover,
+#battery:hover {
+  background-color: #1a1a1a;
+  border-color: #555555;
+}
+
+/* ── Elements (Retro Terminal Colors) ─────────────────────────── */
+#bluetooth {
+  color: #bd93f9;
+}
+#bluetooth.connected {
+  color: #8be9fd;
+}
+
+#network {
+  color: #50fa7b;
+}
+#network.disconnected {
+  color: #6272a4;
+}
+
+#pulseaudio {
+  color: #bd93f9;
+}
+#pulseaudio.muted {
+  color: #6272a4;
+}
+
+#cpu {
+  color: #8be9fd;
+}
+
+#memory {
+  color: #f1fa8c;
+}
+
+#disk {
+  color: #ffb86c;
+}
+
+/* ── Right: Battery Power Status (Terminal Layout) ────────────── */
+#battery {
+  color: #50fa7b; /* Green nominal */
+}
+
+#battery.charging {
+  color: #f1fa8c; /* Yellow charging */
+}
+
+#battery.warning {
+  color: #ffb86c; /* Orange warning */
+}
+
+#battery.critical {
+  color: #ff5555; /* Red critical */
+  animation: blink 2s steps(2, start) infinite;
+}
+
+@keyframes blink {
+  to {
+    color: #444444;
+  }
+}
+
+/* ── Utility ──────────────────────────────────────────────────── */
+.hidden {
+  opacity: 0;
+}
+
+/* ── Tooltips ─────────────────────────────────────────────────── */
+tooltip {
+  background: #0a0a0a;
+  border: 1px solid #333333;
+  border-radius: 0;
+}
+
+tooltip label {
+  color: #f8f8f2;
+  font-family: "JetBrainsMonoNL Nerd Font", monospace;
+  font-size: 12px;
+  padding: 6px 10px;
+}
+
+/* ── Menus ────────────────────────────────────────────────────── */
+menu {
+  background: #0a0a0a;
+  border: 1px solid #333333;
+  border-radius: 0;
+  padding: 4px;
+}
+
+menuitem {
+  color: #f8f8f2;
+  font-family: "JetBrainsMonoNL Nerd Font", monospace;
+  font-size: 12px;
+  padding: 6px 8px;
+  border-radius: 0;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+menuitem:hover {
+  background: #1a1a1a;
+  color: #8be9fd;
+}

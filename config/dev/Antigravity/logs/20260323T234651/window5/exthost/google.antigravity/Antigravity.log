@@ -1,0 +1,14 @@
+2026-03-24 00:13:53.204 [info] I0324 00:13:53.204349 35866 server.go:1150] Starting language server process with pid 35866
+2026-03-24 00:13:53.204 [info] I0324 00:13:53.204435 35866 server.go:269] Setting GOMAXPROCS to 4
+2026-03-24 00:13:53.205 [info] I0324 00:13:53.205600 35866 server.go:422] Language server will attempt to listen on host 127.0.0.1
+2026-03-24 00:13:53.205 [info] I0324 00:13:53.205799 35866 server.go:437] Language server listening on random port at 33147 for HTTPS
+2026-03-24 00:13:53.205 [info] I0324 00:13:53.205834 35866 server.go:444] Language server listening on random port at 45077 for HTTP
+2026-03-24 00:13:53.560 [info] I0324 00:13:53.559998 35866 server.go:414] Created extension server client at port 39229
+2026-03-24 00:13:53.563 [info] I0324 00:13:53.563248 35866 server.go:553] Using ApiServerClientV2
+2026-03-24 00:13:53.566 [info] I0324 00:13:53.565744 35866 cascade_manager.go:834] Reactive state is disabled
+2026-03-24 00:13:53.617 [info] (Antigravity) 2026-03-24 00:13:53.614 [INFO]: Language server started
+2026-03-24 00:13:53.649 [info] I0324 00:13:53.634619 35866 server.go:1530] initialized server successfully in 430.150448ms
+2026-03-24 00:13:53.696 [info] (Antigravity) 2026-03-24 00:13:53.696 [INFO]: LS lspClient started successfully
+2026-03-24 00:13:53.740 [info] 2026/03/24 00:13:53 http: TLS handshake error from 127.0.0.1:36540: EOF
+2026-03-24 00:14:37.726 [info] (Antigravity) 2026-03-24 00:14:37.726 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-03-24 00:14:37.785 [info] I0324 00:14:37.777321 35866 system_mcps.go:80] Chrome DevTools MCP URL discovered at http://127.0.0.1:39215/mcp, stopping watcher

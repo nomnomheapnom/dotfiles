@@ -1,0 +1,57 @@
+2026-03-24 00:13:47.007 [info] Extension host with pid 35135 started
+2026-03-24 00:13:47.007 [info] Skipping acquiring lock for /home/user/.config/Antigravity/User/workspaceStorage/c7518933cdb9ce8e55dc912adee08690.
+2026-03-24 00:13:47.058 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-03-24 00:13:47.125 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-03-24 00:13:47.193 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-24 00:13:47.280 [info] ExtensionService#_doActivateExtension google.antigravity, startup: true, activationEvent: '*'
+2026-03-24 00:13:49.010 [info] ExtensionService#_doActivateExtension google.antigravity-browser-launcher, startup: false, activationEvent: 'onStartupFinished'
+2026-03-24 00:13:49.014 [info] ExtensionService#_doActivateExtension google.chrome-devtools-mcp, startup: false, activationEvent: 'onStartupFinished'
+2026-03-24 00:13:49.106 [info] Extension host terminating: renderer closed the MessagePort
+2026-03-24 00:13:49.140 [error] ProxyResolver#addCertificatesV1 Canceled: Canceled
+	at new yte (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:122267)
+	at w9.U (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:126890)
+	at s.<computed>.r.charCodeAt.s.<computed> (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:124382)
+	at Lp.loadCertificates (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:77522)
+	at Object.loadAdditionalCertificates (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:216:21125)
+	at /opt/Antigravity/resources/app/node_modules/@vscode/proxy-agent/out/index.js:808:49
+	at Generator.next (<anonymous>)
+	at /opt/Antigravity/resources/app/node_modules/@vscode/proxy-agent/out/index.js:35:71
+	at new Promise (<anonymous>)
+	at __awaiter (/opt/Antigravity/resources/app/node_modules/@vscode/proxy-agent/out/index.js:31:12)
+	at /opt/Antigravity/resources/app/node_modules/@vscode/proxy-agent/out/index.js:807:33
+	at /opt/Antigravity/resources/app/node_modules/@vscode/proxy-agent/out/index.js:810:20
+	at Generator.next (<anonymous>)
+	at /opt/Antigravity/resources/app/node_modules/@vscode/proxy-agent/out/index.js:35:71
+	at new Promise (<anonymous>)
+	at __awaiter (/opt/Antigravity/resources/app/node_modules/@vscode/proxy-agent/out/index.js:31:12)
+	at getOrLoadAdditionalCertificates (/opt/Antigravity/resources/app/node_modules/@vscode/proxy-agent/out/index.js:803:12)
+	at addCertificatesToOptionsV1 (/opt/Antigravity/resources/app/node_modules/@vscode/proxy-agent/out/index.js:783:9)
+	at resolveProxyWithRequest (/opt/Antigravity/resources/app/node_modules/@vscode/proxy-agent/out/index.js:140:9)
+	at /opt/Antigravity/resources/app/node_modules/@vscode/proxy-agent/out/index.js:372:77
+	at new Promise (<anonymous>)
+	at PacProxyAgent.resolveP [as resolver] (/opt/Antigravity/resources/app/node_modules/@vscode/proxy-agent/out/index.js:372:54)
+	at PacProxyAgent.<anonymous> (/opt/Antigravity/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:74:37)
+	at Generator.next (<anonymous>)
+	at /opt/Antigravity/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:8:71
+	at new Promise (<anonymous>)
+	at __awaiter (/opt/Antigravity/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:4:12)
+	at PacProxyAgent.connect (/opt/Antigravity/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:56:16)
+	at /opt/Antigravity/resources/app/node_modules/agent-base/dist/index.js:130:30
+2026-03-24 00:13:49.140 [info] Extension host with pid 35135 exiting with code 0
+2026-03-24 00:13:51.091 [info] Extension host with pid 35472 started
+2026-03-24 00:13:51.091 [info] Skipping acquiring lock for /home/user/.config/Antigravity/User/workspaceStorage/c7518933cdb9ce8e55dc912adee08690.
+2026-03-24 00:13:51.271 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-03-24 00:13:51.340 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-24 00:13:51.377 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-24 00:13:51.488 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-24 00:13:52.016 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-03-24 00:13:52.117 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-03-24 00:13:52.182 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-24 00:13:52.287 [info] ExtensionService#_doActivateExtension google.antigravity, startup: true, activationEvent: '*'
+2026-03-24 00:13:52.991 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-03-24 00:13:54.575 [info] ExtensionService#_doActivateExtension google.chrome-devtools-mcp, startup: false, activationEvent: 'onCommand:antigravity.getChromeDevtoolsMcpUrl'
+2026-03-24 00:14:20.418 [info] ExtensionService#_doActivateExtension google.antigravity-browser-launcher, startup: false, activationEvent: 'onStartupFinished'
+2026-03-24 00:14:33.747 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-03-24 00:14:37.357 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-03-24 00:14:37.361 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-03-24 00:14:37.789 [info] Eager extensions activated

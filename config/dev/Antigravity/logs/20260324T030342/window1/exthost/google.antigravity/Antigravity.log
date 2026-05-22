@@ -1,0 +1,103 @@
+2026-03-24 03:05:21.817 [info] I0324 03:05:21.816765 12067 server.go:1150] Starting language server process with pid 12067
+2026-03-24 03:05:21.817 [info] I0324 03:05:21.816826 12067 server.go:269] Setting GOMAXPROCS to 4
+2026-03-24 03:05:21.817 [info] I0324 03:05:21.817562 12067 server.go:422] Language server will attempt to listen on host 127.0.0.1
+2026-03-24 03:05:21.817 [info] I0324 03:05:21.817688 12067 server.go:437] Language server listening on random port at 33605 for HTTPS
+2026-03-24 03:05:21.817 [info] I0324 03:05:21.817708 12067 server.go:444] Language server listening on random port at 32851 for HTTP
+2026-03-24 03:05:22.131 [info] I0324 03:05:22.131663 12067 server.go:414] Created extension server client at port 35895
+2026-03-24 03:05:22.133 [info] I0324 03:05:22.133285 12067 server.go:553] Using ApiServerClientV2
+2026-03-24 03:05:22.135 [info] I0324 03:05:22.134781 12067 cascade_manager.go:834] Reactive state is disabled
+2026-03-24 03:05:22.154 [info] (Antigravity) 2026-03-24 03:05:22.152 [INFO]: Language server started
+2026-03-24 03:05:22.186 [info] I0324 03:05:22.168503 12067 server.go:1530] initialized server successfully in 351.661788ms
+2026-03-24 03:05:22.186 [info] 2026/03/24 03:05:22 http: TLS handshake error from 127.0.0.1:52184: remote error: tls: unknown certificate
+2026-03-24 03:05:22.221 [info] (Antigravity) 2026-03-24 03:05:22.221 [INFO]: LS lspClient started successfully
+2026-03-24 03:05:23.599 [info] I0324 03:05:23.599350 12067 system_mcps.go:80] Chrome DevTools MCP URL discovered at http://127.0.0.1:37983/mcp, stopping watcher
+2026-03-24 03:07:23.599 [info] I0324 03:07:23.599046 12067 planner_generator.go:285] Requesting planner with 6 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 03:07:24.387 [info] E0324 03:07:24.387029 12067 log.go:398] agent executor error: RESOURCE_EXHAUSTED (code 429): You have exhausted your capacity on this model. Your quota will reset after 164h21m4s.: RESOURCE_EXHAUSTED (code 429): You have exhausted your capacity on this model. Your quota will reset after 164h21m4s.
+2026-03-24 03:07:32.980 [info] I0324 03:07:32.980243 12067 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.20.6
+2026-03-24 03:08:19.626 [info] I0324 03:08:19.626167 12067 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.20.6
+2026-03-24 03:08:20.238 [info] I0324 03:08:20.237638 12067 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.20.6
+2026-03-24 03:08:36.432 [info] I0324 03:08:36.432232 12067 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.20.6
+2026-03-24 03:09:54.996 [info] I0324 03:09:54.995786 12067 planner_generator.go:285] Requesting planner with 8 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 03:09:57.778 [info] I0324 03:09:57.777546 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x690f333dfbae450e
+2026-03-24 03:10:05.796 [info] I0324 03:10:05.796546 12067 planner_generator.go:285] Requesting planner with 9 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 03:10:06.888 [info] I0324 03:10:06.887797 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd971b2e11348275b
+2026-03-24 03:10:08.732 [info] I0324 03:10:08.731490 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x685792dd3cc46928
+2026-03-24 03:10:14.074 [info] I0324 03:10:14.074078 12067 planner_generator.go:285] Requesting planner with 11 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 03:10:17.333 [info] I0324 03:10:17.332538 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9f442d318c05fbbe
+2026-03-24 03:10:19.710 [info] I0324 03:10:19.709344 12067 planner_generator.go:285] Requesting planner with 13 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 03:10:22.351 [info] I0324 03:10:22.350564 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd6e564a04ebc166d
+2026-03-24 03:10:25.220 [info] I0324 03:10:25.219750 12067 planner_generator.go:206] Model output error: artifact metadata is required when IsArtifact is true
+2026-03-24 03:10:25.220 [info] E0324 03:10:25.219955 12067 log.go:398] artifact metadata is required when IsArtifact is true
+2026-03-24 03:10:25.230 [info] I0324 03:10:25.229978 12067 planner_generator.go:285] Requesting planner with 15 chat messages at model retry attempt 2 and API retry attempt 1
+2026-03-24 03:10:28.188 [info] I0324 03:10:28.188043 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xed52387ad66c9a09
+2026-03-24 03:10:28.599 [info] I0324 03:10:28.598979 12067 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.20.6
+2026-03-24 03:10:28.620 [info] E0324 03:10:28.620066 12067 log.go:398] internal: internal error
+2026-03-24 03:10:28.642 [info] I0324 03:10:28.642067 12067 planner_generator.go:285] Requesting planner with 17 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 03:10:31.157 [info] I0324 03:10:31.156387 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x21fe3d3ac8c1b660
+2026-03-24 03:10:32.221 [info] I0324 03:10:32.221359 12067 planner_generator.go:285] Requesting planner with 20 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 03:10:34.815 [info] I0324 03:10:34.814717 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4232d4fc46bc6a35
+2026-03-24 03:10:36.893 [info] I0324 03:10:36.892994 12067 planner_generator.go:285] Requesting planner with 22 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 03:10:38.939 [info] I0324 03:10:38.939219 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x40fdb073c510004d
+2026-03-24 03:10:53.685 [info] I0324 03:10:53.685091 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:generateContent Trace: 0x46b8248a7f5adb05
+2026-03-24 03:10:53.712 [info] I0324 03:10:53.711245 12067 planner_generator.go:285] Requesting planner with 24 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 03:10:56.347 [info] I0324 03:10:56.347109 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xda7958b520e19b5d
+2026-03-24 03:11:02.187 [info] I0324 03:11:02.186712 12067 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.20.6
+2026-03-24 03:11:02.745 [info] E0324 03:11:02.744008 12067 log.go:398] internal: internal error
+2026-03-24 03:11:02.772 [info] I0324 03:11:02.772306 12067 planner_generator.go:285] Requesting planner with 27 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 03:11:04.842 [info] I0324 03:11:04.744294 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x85a45aede9d557b7
+2026-03-24 03:11:07.117 [info] E0324 03:11:07.116699 12067 log.go:398] internal: internal error
+2026-03-24 03:11:11.104 [info] I0324 03:11:11.104198 12067 planner_generator.go:285] Requesting planner with 33 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 03:11:13.858 [info] I0324 03:11:13.857697 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9d84e8419f7c5d77
+2026-03-24 03:11:15.709 [info] I0324 03:11:15.708841 12067 planner_generator.go:206] Model output error: /home/user/.config/hypr/task.md does not exist in the current location. Make sure the file path correct. In addition, the user may have moved, renamed, or deleted file.
+2026-03-24 03:11:15.709 [info] E0324 03:11:15.709041 12067 log.go:398] /home/user/.config/hypr/task.md does not exist in the current location. Make sure the file path correct. In addition, the user may have moved, renamed, or deleted file.
+2026-03-24 03:11:15.735 [info] I0324 03:11:15.734709 12067 planner_generator.go:285] Requesting planner with 36 chat messages at model retry attempt 2 and API retry attempt 1
+2026-03-24 03:11:19.285 [info] I0324 03:11:19.284950 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc0d72d6b484cb7e3
+2026-03-24 03:11:19.805 [info] E0324 03:11:19.805451 12067 log.go:398] internal: internal error
+2026-03-24 03:11:19.816 [info] I0324 03:11:19.816370 12067 planner_generator.go:285] Requesting planner with 37 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 03:11:22.255 [info] I0324 03:11:22.254937 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x80c06c6ec5673dd4
+2026-03-24 03:11:22.786 [info] E0324 03:11:22.785678 12067 log.go:398] internal: internal error
+2026-03-24 03:11:24.827 [info] I0324 03:11:24.826821 12067 planner_generator.go:285] Requesting planner with 39 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 03:11:27.989 [info] I0324 03:11:27.988745 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x897f9dd9101d1d8c
+2026-03-24 03:11:28.195 [info] I0324 03:11:28.195462 12067 planner_generator.go:206] Model output error: path is not in a workspace which you have access to: either proceed without accessing that path, or ask the user if they are willing to turn off workspace validation
+2026-03-24 03:11:28.195 [info] E0324 03:11:28.195517 12067 log.go:398] path is not in a workspace which you have access to: either proceed without accessing that path, or ask the user if they are willing to turn off workspace validation
+2026-03-24 03:11:28.199 [info] I0324 03:11:28.199732 12067 planner_generator.go:285] Requesting planner with 42 chat messages at model retry attempt 2 and API retry attempt 1
+2026-03-24 03:11:30.138 [info] I0324 03:11:30.138587 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x135d8071e33f7ef2
+2026-03-24 03:11:30.756 [info] I0324 03:11:30.755962 12067 planner_generator.go:206] Model output error: path is not in a workspace which you have access to: either proceed without accessing that path, or ask the user if they are willing to turn off workspace validation
+2026-03-24 03:11:30.756 [info] E0324 03:11:30.756158 12067 log.go:398] path is not in a workspace which you have access to: either proceed without accessing that path, or ask the user if they are willing to turn off workspace validation
+2026-03-24 03:11:30.778 [info] I0324 03:11:30.777584 12067 planner_generator.go:285] Requesting planner with 44 chat messages at model retry attempt 3 and API retry attempt 1
+2026-03-24 03:11:33.477 [info] I0324 03:11:33.476856 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x925cd7b89c0b3e03
+2026-03-24 03:11:33.490 [info] I0324 03:11:33.490243 12067 planner_generator.go:206] Model output error: path is not in a workspace which you have access to: either proceed without accessing that path, or ask the user if they are willing to turn off workspace validation
+2026-03-24 03:11:33.490 [info] E0324 03:11:33.490298 12067 log.go:398] path is not in a workspace which you have access to: either proceed without accessing that path, or ask the user if they are willing to turn off workspace validation
+2026-03-24 03:11:33.495 [info] I0324 03:11:33.495096 12067 planner_generator.go:285] Requesting planner with 46 chat messages at model retry attempt 4 and API retry attempt 1
+2026-03-24 03:11:36.490 [info] I0324 03:11:36.489649 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6c60c59b12c52e5e
+2026-03-24 03:11:38.238 [info] I0324 03:11:38.237863 12067 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.20.6
+2026-03-24 03:11:38.277 [info] E0324 03:11:38.277079 12067 log.go:398] internal: internal error
+2026-03-24 03:11:38.310 [info] I0324 03:11:38.310382 12067 planner_generator.go:285] Requesting planner with 49 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 03:11:40.477 [info] I0324 03:11:40.476789 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8f597de2528303db
+2026-03-24 03:11:42.815 [info] E0324 03:11:42.815498 12067 log.go:398] internal: internal error
+2026-03-24 03:11:42.829 [info] I0324 03:11:42.829168 12067 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.20.6
+2026-03-24 03:15:14.956 [info] I0324 03:15:14.955672 12067 planner_generator.go:285] Requesting planner with 55 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 03:15:17.766 [info] I0324 03:15:17.766381 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x99c5ac5006bff630
+2026-03-24 03:15:21.478 [info] E0324 03:15:21.478252 12067 log.go:398] internal: internal error
+2026-03-24 03:15:21.554 [info] I0324 03:15:21.554211 12067 planner_generator.go:285] Requesting planner with 56 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 03:15:24.903 [info] I0324 03:15:24.901870 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x16d8e89e849f26ad
+2026-03-24 03:15:26.125 [info] E0324 03:15:26.121342 12067 log.go:398] step has unexpected non-terminal status: CORTEX_STEP_STATUS_GENERATING
+2026-03-24 03:15:26.963 [info] I0324 03:15:26.963164 12067 planner_generator.go:206] Model output error: path is not in a workspace which you have access to: either proceed without accessing that path, or ask the user if they are willing to turn off workspace validation
+2026-03-24 03:15:26.964 [info] E0324 03:15:26.963481 12067 log.go:398] path is not in a workspace which you have access to: either proceed without accessing that path, or ask the user if they are willing to turn off workspace validation
+2026-03-24 03:15:26.986 [info] I0324 03:15:26.985531 12067 planner_generator.go:285] Requesting planner with 59 chat messages at model retry attempt 2 and API retry attempt 1
+2026-03-24 03:15:27.506 [info] E0324 03:15:27.503630 12067 log.go:398] internal: internal error
+2026-03-24 03:15:43.825 [info] I0324 03:15:43.825119 12067 planner_generator.go:285] Requesting planner with 55 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 03:15:46.448 [info] I0324 03:15:46.447607 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb064ec4e892db129
+2026-03-24 03:15:48.704 [info] I0324 03:15:48.703851 12067 planner_generator.go:206] Model output error: path is not in a workspace which you have access to: either proceed without accessing that path, or ask the user if they are willing to turn off workspace validation
+2026-03-24 03:15:48.704 [info] E0324 03:15:48.704009 12067 log.go:398] path is not in a workspace which you have access to: either proceed without accessing that path, or ask the user if they are willing to turn off workspace validation
+2026-03-24 03:15:48.724 [info] I0324 03:15:48.723373 12067 planner_generator.go:285] Requesting planner with 57 chat messages at model retry attempt 2 and API retry attempt 1
+2026-03-24 03:15:51.260 [info] I0324 03:15:51.260244 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x70ef66c3a4db9e49
+2026-03-24 03:15:56.814 [info] E0324 03:15:56.814229 12067 log.go:398] internal: internal error
+2026-03-24 03:15:56.879 [info] I0324 03:15:56.878475 12067 planner_generator.go:285] Requesting planner with 58 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 03:15:59.543 [info] I0324 03:15:59.543194 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x96c38ab2877d55ee
+2026-03-24 03:16:15.018 [info] I0324 03:16:15.017423 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:generateContent Trace: 0x41337eb652552325
+2026-03-24 03:16:15.057 [info] I0324 03:16:15.056572 12067 planner_generator.go:285] Requesting planner with 61 chat messages at model retry attempt 1 and API retry attempt 1
+2026-03-24 03:16:17.293 [info] I0324 03:16:17.292460 12067 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x777c2e697f11268e
+2026-03-24 03:16:19.219 [info] I0324 03:16:19.218329 12067 planner_generator.go:206] Model output error: path is not in a workspace which you have access to: either proceed without accessing that path, or ask the user if they are willing to turn off workspace validation
+2026-03-24 03:16:19.219 [info] E0324 03:16:19.218492 12067 log.go:398] path is not in a workspace which you have access to: either proceed without accessing that path, or ask the user if they are willing to turn off workspace validation
+2026-03-24 03:16:19.237 [info] I0324 03:16:19.236446 12067 planner_generator.go:285] Requesting planner with 63 chat messages at model retry attempt 2 and API retry attempt 1

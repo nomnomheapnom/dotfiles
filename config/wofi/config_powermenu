@@ -1,0 +1,16 @@
+width=520
+height=400
+location=center
+show=dmenu
+prompt=
+filter_rate=100
+allow_markup=true
+no_actions=true
+halign=fill
+orientation=vertical
+content_halign=fill
+insensitive=false
+allow_images=false
+image_size=0
+line_wrap=word
+dynamic_lines=true

@@ -1,0 +1,8 @@
+2026-03-24 02:59:25.675 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-03-24 02:59:25.675 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:38467
+2026-03-24 02:59:25.675 [info] update#setState idle
+2026-03-24 02:59:27.366 [info] Started initializing default profile extensions in extensions installation folder. file:///home/user/.antigravity/extensions
+2026-03-24 02:59:27.432 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/user/.antigravity/extensions
+2026-03-24 02:59:39.398 [warning] [perf] profiling STARTED e333750c-1bac-41c3-8c18-4667c9100ee9
+2026-03-24 02:59:39.646 [info] Extension host with pid 9141 exited with code: 0, signal: unknown.
+2026-03-24 02:59:41.461 [info] Extension host with pid 9142 exited with code: 0, signal: unknown.

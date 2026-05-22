@@ -1,0 +1,6 @@
+elephant
+gslapper
+lazydocker-bin
+spicetify-bin
+sysc-greet-hyprland
+walker-bin

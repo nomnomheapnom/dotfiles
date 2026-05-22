@@ -1,0 +1,13 @@
+2026-03-23 23:47:12.329 [info] Extension host with pid 2182 started
+2026-03-23 23:47:12.363 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-03-23 23:47:12.376 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-03-23 23:47:12.448 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-23 23:47:12.531 [info] ExtensionService#_doActivateExtension google.antigravity, startup: true, activationEvent: '*'
+2026-03-23 23:47:18.197 [info] ExtensionService#_doActivateExtension google.chrome-devtools-mcp, startup: false, activationEvent: 'onCommand:antigravity.getChromeDevtoolsMcpUrl'
+2026-03-23 23:47:22.284 [info] Eager extensions activated
+2026-03-23 23:47:22.289 [info] ExtensionService#_doActivateExtension google.antigravity-browser-launcher, startup: false, activationEvent: 'onStartupFinished'
+2026-03-23 23:47:22.294 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-03-23 23:47:22.300 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-03-23 23:47:22.304 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-03-23 23:48:45.929 [info] Extension host terminating: renderer closed the MessagePort
+2026-03-23 23:48:45.956 [info] Extension host with pid 2182 exiting with code 0

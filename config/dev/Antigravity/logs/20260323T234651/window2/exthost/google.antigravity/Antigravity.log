@@ -1,0 +1,15 @@
+2026-03-23 23:47:16.702 [info] I0323 23:47:16.701070  2261 server.go:1150] Starting language server process with pid 2261
+2026-03-23 23:47:16.704 [info] I0323 23:47:16.704049  2261 server.go:269] Setting GOMAXPROCS to 4
+2026-03-23 23:47:16.705 [info] I0323 23:47:16.705250  2261 server.go:422] Language server will attempt to listen on host 127.0.0.1
+2026-03-23 23:47:16.726 [info] I0323 23:47:16.726254  2261 server.go:437] Language server listening on random port at 45625 for HTTPS
+2026-03-23 23:47:16.726 [info] I0323 23:47:16.726297  2261 server.go:444] Language server listening on random port at 38813 for HTTP
+2026-03-23 23:47:17.095 [info] I0323 23:47:17.095010  2261 server.go:414] Created extension server client at port 44571
+2026-03-23 23:47:17.181 [info] I0323 23:47:17.181056  2261 server.go:553] Using ApiServerClientV2
+2026-03-23 23:47:17.183 [info] I0323 23:47:17.183545  2261 cascade_manager.go:834] Reactive state is disabled
+2026-03-23 23:47:17.206 [info] (Antigravity) 2026-03-23 23:47:17.204 [INFO]: Language server started
+2026-03-23 23:47:17.237 [info] I0323 23:47:17.225421  2261 server.go:1530] initialized server successfully in 521.356837ms
+2026-03-23 23:47:17.261 [info] 2026/03/23 23:47:17 http: TLS handshake error from 127.0.0.1:53676: EOF
+2026-03-23 23:47:17.261 [info] 2026/03/23 23:47:17 http: TLS handshake error from 127.0.0.1:53672: EOF
+2026-03-23 23:47:17.261 [info] 2026/03/23 23:47:17 http: TLS handshake error from 127.0.0.1:53668: EOF
+2026-03-23 23:47:17.290 [info] (Antigravity) 2026-03-23 23:47:17.290 [INFO]: LS lspClient started successfully
+2026-03-23 23:47:19.091 [info] I0323 23:47:19.091308  2261 system_mcps.go:80] Chrome DevTools MCP URL discovered at http://127.0.0.1:44345/mcp, stopping watcher

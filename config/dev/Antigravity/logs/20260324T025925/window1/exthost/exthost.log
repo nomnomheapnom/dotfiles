@@ -1,0 +1,235 @@
+2026-03-24 02:59:32.916 [info] Extension host with pid 9141 started
+2026-03-24 02:59:32.916 [info] Skipping acquiring lock for /home/user/.config/Antigravity/User/workspaceStorage/8b7a2fce475c9282ee235e9d0163a7cc.
+2026-03-24 02:59:33.006 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-03-24 02:59:33.051 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-24 02:59:33.068 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-24 02:59:33.176 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-24 02:59:33.676 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-03-24 02:59:33.705 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-03-24 02:59:33.757 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-24 02:59:33.843 [info] ExtensionService#_doActivateExtension google.antigravity, startup: true, activationEvent: '*'
+2026-03-24 02:59:35.180 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2026-03-24 02:59:36.185 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:36.185 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:36.185 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:36.185 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:36.185 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:36.185 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:36.185 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:36.185 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:36.185 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:36.185 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:36.185 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:36.185 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:36.185 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:36.185 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:36.596 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2026-03-24 02:59:37.756 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:37.758 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:37.758 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:37.759 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:37.759 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:37.760 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:37.761 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:37.762 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:37.762 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:37.763 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:37.763 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:37.763 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:37.764 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:37.764 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:37.771 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-03-24 02:59:37.933 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:37.933 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:37.933 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:37.933 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:37.933 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:37.933 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:37.933 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:37.933 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:38.953 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:38.954 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:38.954 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:38.955 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:38.956 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:38.957 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:38.958 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:38.958 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/Antigravity/resources/app/extensions/git/dist/main.js:2:790914)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-24 02:59:39.602 [info] Extension host terminating: renderer closed the MessagePort
+2026-03-24 02:59:39.644 [info] Extension host with pid 9141 exiting with code 0

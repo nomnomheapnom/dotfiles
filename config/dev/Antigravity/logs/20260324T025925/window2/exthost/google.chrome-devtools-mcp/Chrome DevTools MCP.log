@@ -1,0 +1,5 @@
+2026-03-24 02:59:39.993 [info] Extension activating...
+2026-03-24 02:59:40.935 [info] Configured browser URL: http://127.0.0.1:9222
+2026-03-24 02:59:40.935 [info] Created new MCP server instance
+2026-03-24 02:59:40.935 [info] Server ready at http://127.0.0.1:33041/mcp
+2026-03-24 02:59:40.937 [info] Returning MCP URL: http://127.0.0.1:33041/mcp

@@ -1,0 +1,63 @@
+" Nomnom color scheme for vifm
+" Matches the unified palette used across hyprland, waybar, mako, btop, etc.
+"
+" Palette:
+"   bg:       #000000  |  surface:  #2F1B1B
+"   fg:       #D9AFA7  |  accent:   #FF6B4A
+"   muted:    #7B534E  |  warm red: #E07B5F
+"   deep red: #C45A3F  |  dark red: #A0392F
+"   sel bg:   #4A2C2C
+
+highlight clear
+
+highlight Win          cterm=none       ctermfg=181  ctermbg=0
+highlight Directory    cterm=bold       ctermfg=173  ctermbg=default
+highlight Link         cterm=bold       ctermfg=209  ctermbg=default
+highlight BrokenLink   cterm=bold       ctermfg=131  ctermbg=default
+highlight HardLink     cterm=none       ctermfg=173  ctermbg=default
+highlight Socket       cterm=bold       ctermfg=209  ctermbg=default
+highlight Device       cterm=bold       ctermfg=131  ctermbg=default
+highlight Fifo         cterm=bold       ctermfg=137  ctermbg=default
+highlight Executable   cterm=bold       ctermfg=167  ctermbg=default
+highlight Selected     cterm=bold       ctermfg=209  ctermbg=52
+highlight CurrLine     cterm=bold       ctermfg=181  ctermbg=52
+highlight TopLine      cterm=none       ctermfg=181  ctermbg=52
+highlight TopLineSel   cterm=bold       ctermfg=209  ctermbg=52
+highlight StatusLine   cterm=bold       ctermfg=181  ctermbg=52
+highlight WildBox      cterm=none       ctermfg=181  ctermbg=52
+highlight WildMenu     cterm=bold       ctermfg=209  ctermbg=52
+highlight CmdLine      cterm=none       ctermfg=181  ctermbg=0
+highlight ErrorMsg     cterm=bold       ctermfg=131  ctermbg=0
+highlight Border       cterm=none       ctermfg=95   ctermbg=0
+highlight OtherLine    cterm=none       ctermfg=95   ctermbg=default
+highlight JobLine      cterm=bold       ctermfg=209  ctermbg=52
+highlight SuggestBox   cterm=none       ctermfg=181  ctermbg=0
+highlight CmpMismatch  cterm=bold       ctermfg=181  ctermbg=131
+highlight CmpUnmatched cterm=bold       ctermfg=181  ctermbg=95
+highlight CmpBlank     cterm=none       ctermfg=default ctermbg=default
+highlight AuxWin       cterm=none       ctermfg=181  ctermbg=0
+highlight TabLine      cterm=none       ctermfg=95   ctermbg=0
+highlight TabLineSel   cterm=bold       ctermfg=209  ctermbg=52
+highlight User1        ctermfg=default  ctermbg=default
+highlight User2        ctermfg=default  ctermbg=default
+highlight User3        ctermfg=default  ctermbg=default
+highlight User4        ctermfg=default  ctermbg=default
+highlight User5        ctermfg=default  ctermbg=default
+highlight User6        ctermfg=default  ctermbg=default
+highlight User7        ctermfg=default  ctermbg=default
+highlight User8        ctermfg=default  ctermbg=default
+highlight User9        ctermfg=default  ctermbg=default
+highlight User10       ctermfg=default  ctermbg=default
+highlight User11       ctermfg=default  ctermbg=default
+highlight User12       ctermfg=default  ctermbg=default
+highlight User13       ctermfg=default  ctermbg=default
+highlight User14       ctermfg=default  ctermbg=default
+highlight User15       ctermfg=default  ctermbg=default
+highlight User16       ctermfg=default  ctermbg=default
+highlight User17       ctermfg=default  ctermbg=default
+highlight User18       ctermfg=default  ctermbg=default
+highlight User19       ctermfg=default  ctermbg=default
+highlight User20       ctermfg=default  ctermbg=default
+highlight OtherWin     ctermfg=95       ctermbg=0
+highlight LineNr       ctermfg=95       ctermbg=default
+highlight OddLine      ctermfg=default  ctermbg=default

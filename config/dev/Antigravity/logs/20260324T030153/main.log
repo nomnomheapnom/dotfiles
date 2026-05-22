@@ -1,0 +1,7 @@
+2026-03-24 03:01:53.488 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-03-24 03:01:53.495 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:36537
+2026-03-24 03:01:53.540 [info] update#setState idle
+2026-03-24 03:02:23.542 [info] update#setState checking for updates
+2026-03-24 03:02:23.900 [info] update#setState idle
+2026-03-24 03:02:25.085 [warning] [storage main] detected slow close() operation: Time: 9041ms, DB size: 36864b, Large Keys: terminal.integrated.bufferState:9571, __$__targetStorageMarker:1678, terminal.integrated.environmentVariableCollectionsV2:1127, workbench.view.debug.state:584, workbench.activity.viewletsWorkspaceState:581
+2026-03-24 03:03:45.999 [warning] [storage main] detected slow close() operation: Time: 89953ms, DB size: 299008b, Large Keys: iconThemeData:183728, antigravityUnifiedStateSync.theme:10568, colorThemeData:7059, terminal.history.entries.commands:5279, workbench.activity.placeholderViewlets:5140
